@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - search -->
+    <div class="backdrop v2">
+        <div class="alertDialogWrap">
+            <div class="alertInner">
+                <!-- alertCon 변경사항 클래스 추가 후 작성 -->
+                <div class="alertCon modalType01 surveyResearch">
+                    <span class="btnPopClose" onclick="popupLayerClose();"></span>
+                    <p class="alertTit tac">설문조사 제목</p>
+                    <p class="alertCaption tac mt8">설문조사 설명이 표시됩니다. 설문조사 설명입니다.<br>설문조사 설명입니다.</p>
+                    <p class="alertCaption tac mt24 mb30">실시 기간 : 2022-10-01 ~ 2022-10-10</p>
+                    <hr class="mt20">
+                    <div class="scroll500">
+                        <div class="dashLineTop">
+                            <dl class="mt20">
+                                <dt>Q. 설문 제목이 표시됩니다.</dt>
+                                <dd>
+                                    <div class="inpWrap mt16">
+                                        <input type="radio" id="radioCase01" class="radioRound" name="case">
+                                        <label for="radioCase01"><span>매우 그렇다</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="inpWrap mt18">
+                                        <input type="radio" id="radioCase02" class="radioRound" name="case">
+                                        <label for="radioCase02"><span>그렇다</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="inpWrap mt18">
+                                        <input type="radio" id="radioCase03" class="radioRound" name="case">
+                                        <label for="radioCase03"><span>보통이다</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="inpWrap mt18">
+                                        <input type="radio" id="radioCase04" class="radioRound" name="case">
+                                        <label for="radioCase04"><span>아니다</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="inpWrap mt18">
+                                        <input type="radio" id="radioCase05" class="radioRound" name="case">
+                                        <label for="radioCase05"><span>전혀 아니다</span></label>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="dashLineTop">
+                            <dl class="mt20">
+                                <dt>Q. 설문 제목이 표시됩니다.<em>(중복선택가능)</em></dt>
+                                <dd>
+                                    <div class="checkbox mt18">
+                                        <input type="checkbox" id="chkCase01" class="allCheckbox" name="chkCase">
+                                        <label for="chkCase01"><span>선택지01</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="checkbox mt18">
+                                        <input type="checkbox" id="chkCase02" class="allCheckbox" name="chkCase">
+                                        <label for="chkCase02"><span>선택지02</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="checkbox mt18">
+                                        <input type="checkbox" id="chkCase03" class="allCheckbox" name="chkCase">
+                                        <label for="chkCase03"><span>선택지03</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="checkbox mt18">
+                                        <input type="checkbox" id="chkCase04" class="allCheckbox" name="chkCase">
+                                        <label for="chkCase04"><span>선택지04</span></label>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="checkbox mt18">
+                                        <input type="checkbox" id="chkCase05" class="allCheckbox" name="chkCase">
+                                        <label for="chkCase05"><span>선택지05</span></label>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="dashLineTop">
+                            <div class="textForm mt20">
+                                <label for="">Q. 사이트 이용에 대한 의견을 입력해주세요.</label>
+                                <textarea class="mt8" name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- alertCon 변경사항 클래스 추가 후 작성 -->
+                <div class="btnWrap mt30">
+                    <button class="wdh_full">제출하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 팝업 닫기
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.btnPopClose');
+
+		function popupLayerClose(){
+			backdrop.style.display = "none";
+		};
+    </script>
+</body>
+</html>

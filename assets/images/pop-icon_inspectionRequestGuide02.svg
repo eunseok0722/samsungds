@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <clipPath id="2ieqxb1lka">
+            <path data-name="사각형 67" style="fill:none" d="M0 0h17.858v33.059H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 161">
+        <text transform="translate(16 32)" style="font-size:12px;font-family:SamsungOne-700,'SamsungOne \37 00';font-weight:700"><tspan x="0" y="0">Presentation</tspan></text>
+        <g data-name="타원 3" style="stroke:#aaa;fill:none">
+            <circle cx="50" cy="50" r="50" style="stroke:none"/>
+            <circle cx="50" cy="50" r="49.5" style="fill:none"/>
+        </g>
+        <g data-name="그룹 153">
+            <g data-name="그룹 152" style="clip-path:url(#2ieqxb1lka)" transform="translate(41 46.415)">
+                <path data-name="패스 86" d="M13.574 22.703h-9.29A4.289 4.289 0 0 1 0 18.419v-2.258a.5.5 0 0 1 1 0v2.258a3.288 3.288 0 0 0 3.284 3.284h9.29a3.288 3.288 0 0 0 3.284-3.285V16.16a.5.5 0 0 1 1 0v2.258a4.289 4.289 0 0 1-4.284 4.284"/>
+                <path data-name="패스 87" d="M9.662 33.059H8.196a.5.5 0 0 1-.5-.5V22.204a.5.5 0 0 1 .5-.5h1.466a.5.5 0 0 1 .5.5v10.355a.5.5 0 0 1-.5.5m-.966-1h.467v-9.355h-.467z"/>
+                <path data-name="패스 88" d="M13.328 33.059h-8.8a.5.5 0 0 1 0-1h8.8a.5.5 0 0 1 0 1"/>
+                <path data-name="패스 89" d="M8.929 1.494a.5.5 0 0 1-.5-.5V.5a.5.5 0 1 1 1 0v.494a.5.5 0 0 1-.5.5"/>
+                <path data-name="패스 90" d="M8.929 17.308a.5.5 0 0 1-.5-.5v-.9a.5.5 0 1 1 1 0v.9a.5.5 0 0 1-.5.5m0-3.163a.5.5 0 0 1-.5-.5v-.9a.5.5 0 1 1 1 0v.9a.5.5 0 0 1-.5.5m0-3.163a.5.5 0 0 1-.5-.5v-.9a.5.5 0 0 1 1 0v.9a.5.5 0 0 1-.5.5m0-3.163a.5.5 0 0 1-.5-.5v-.9a.5.5 0 1 1 1 0v.9a.5.5 0 0 1-.5.5m0-3.163a.5.5 0 0 1-.5-.5v-.9a.5.5 0 0 1 1 0v.9a.5.5 0 0 1-.5.5"/>
+                <path data-name="패스 91" d="M8.929 20.062a.5.5 0 0 1-.5-.5v-.494a.5.5 0 1 1 1 0v.494a.5.5 0 0 1-.5.5"/>
+                <path data-name="패스 92" d="M8.961 20.174a5.824 5.824 0 0 1-5.818-5.817V5.818a5.817 5.817 0 1 1 11.635 0v8.539a5.823 5.823 0 0 1-5.817 5.817M8.961 1a4.824 4.824 0 0 0-4.819 4.818v8.539a4.818 4.818 0 0 0 9.635 0V5.818A4.823 4.823 0 0 0 8.961 1"/>
+            </g>
+        </g>
+    </g>
+</svg>

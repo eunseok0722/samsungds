@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/css/common.css">
+
+</head>
+<style>
+    .component{width: 1440px; margin: 0 auto; padding-bottom: 120px;}
+    .cpInfo{font-size: 14px; font-weight: 700; color: orangered;}
+    .cpInfo::before{content: ''; display: inline-block; margin-right: 10px; width: 12px; height: 12px; border-radius: 50%; background-color: orangered;}
+    .cpInfo.v2::before{content: ''; display: inline-block; margin-right: 10px; width: 12px; height: 12px; border-radius: 50%; background-color: orangered;}
+    .cpInfo.v2::after{content: ''; display: inline-block; margin-left: 10px; width: 12px; height: 12px; border-radius: 50%; background-color: orangered;}
+</style>
+<body>
+    <div class="wrap">
+        <p class="cpInfo v2 mt20 tac" style="font-size: 24px;">산출물 - 퍼블리싱 PDF 파일안에 page 참고 >> Samsung_Semiconductor_DesignSystem_v1.4.pdf</p>
+        <div class="topBtnArea">
+            <span></span>
+            <p class="cpInfo mt20" style="position: absolute; width: 100px; bottom: 0; margin: auto; text-align: center;">192pg 참고</p>
+        </div>
+        <div class="component">
+            <div class="btnWrap mt60">
+                <button class="btnType btnSize40 btnColorCyan">btnColorCyan</button>
+                <button class="btnType btnSize40 btnColorCyan disabled" disabled>btnColorCyan</button>    
+                <p class="cpInfo mt20">btnColorCyan / btnColorCyan = disabled</p>
+            </div>
+            <div class="btnWrap mt60">
+                <button class="btnType btnSize40 btnColorB">btnColorB</button>
+                <button class="btnType btnSize40 btnColorB disabled" disabled>btnColorB</button>
+                <p class="cpInfo mt20">btnColorB / btnColorB = disabled  // 150page 참고</p>
+            </div>
+            <div class="btnWrap mt60">
+                <button class="btnType btnSize40 btnColorW">btnColorW</button>
+                <button class="btnType btnSize40 btnColorW disabled" disabled>btnColorW</button>
+                <p class="cpInfo mt20">btnColorW / btnColorW = disabled  // 150page 참고</p>
+            </div>
+            <div class="btnWrap mt60">
+                <button class="btnType btnSize40 btnLineB">btnLineB</button>
+                <button class="btnType btnSize40 btnLineB disabled" disabled>btnLineB</button>
+                <p class="cpInfo mt20">btnLineB / btnLineB = disabled  // 151page 참고</p>
+            </div>
+            <div class="btnWrap mt60">
+                <button class="btnType btnunderlineB">초기화 버튼</button>
+                <p class="cpInfo mt20">초기화 버튼  // 156page 참고</p>
+            </div>
+            <div class="btnWrap mt60">
+                <button class="btnType btnSize40 moreBtn">더보기</button>
+                <button class="btnType btnSize40 moreBtn enV">View more</button>
+                <p class="cpInfo mt20">더보기 버튼</p>
+            </div>
+            <div class="btnWrap mt60">
+                <button class="btnType btnSize40 btnColorB btnAllDown">다운로드</button>
+                <button class="btnType btnSize40 btnColorB btnAllDown enV">Download</button>
+                <p class="cpInfo mt20">다운로드 버튼  // 180page 참고</p>
+            </div>
+            <hr class="mt20 mb20">
+            <p class="cpInfo mt60">textForm 글자수 없음  //  390 page 참고</p>
+            <div class="textForm mt20">
+                <label for="">Q. 사이트 이용에 대한 의견을 입력해주세요.</label>
+                <textarea class="mt8" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <hr class="mt20 mb20">
+            <p class="cpInfo mt40">commentInfo(userInfo)</p>
+            <div class="commentInfo pd0 mt20">
+                <div class="userInfo">
+                    <i></i>
+                    <span>samsungUser</span>
+                    <em>2022-08-20</em>
+                </div>
+            </div>
+            <p class="cpInfo mt40">textFormCount 글자수 있음 / commentInfo(userInfo / edit)</p>
+            <div class="textFormCount mt60">
+                <div class="commentInfo pd0">
+                    <div class="userInfo">
+                        <i></i>
+                        <span>samsungUser</span>
+                        <em>2022-08-20</em>
+                    </div>
+                    <div class="edit">
+                        <b class="commentEdit commentModi"><i></i>수정</b>
+                        <b class="commentEdit commentDel ml16"><i></i>삭제</b>
+                    </div>
+                </div>
+                <div class="textAreaLimit mt10">
+                    <textarea name="textFormArea" cols="30" rows="10" placeholder="이 게시물에 댓글을 남겨보세요. (최대 500자)"></textarea>
+                    <q class="textCount"><em>0자</em> / 500자</q>
+                </div>
+            </div>
+            <hr class="mt20 mb20">
+            <p class="cpInfo mt40">joinInfoWrite 안에서 애니메이션 진행 // 374page 참고</p>
+            <div class="joinInfoWrite">
+                <div class="inpWrap wdh_684">
+                    <input type="text" id="emailId" name="emailId" autocomplete="off" required>
+                    <label for="emailId">이메일 아이디</label>
+                    <p class="warning mt10 tal">동일한 계정이 있어요.</p>
+                    <p class="warning mt10 tal">유효한 이메일 주소를 입력하세요.</p>
+                    <p class="info02 mt8 tal">※ 개인 이메일이 아닌 업무 시 사용하는 이메일을 입력해주세요.</p>
+                </div>
+                <div class="inpWrap wdh_684 mt20">
+                    <input type="password" id="password" name="password" autocomplete="off" required>
+                    <label for="password">비밀번호</label>
+                    <p class="info02 mt8 tal">문자, 숫자, 기호를 포함하여 8자 이상으로 설정해 주세요.</p>
+                    <p class="warning mt8 tal">문자, 숫자, 기호를 포함하여 8자 이상으로 설정해 주세요.</p>
+                </div>
+            </div>
+            <hr class="mt20 mb20">
+            <p class="cpInfo mt40">inpWrap > requestRadio // 223page 참고  //  338page 참고</p>
+            <div class="inpWrap mt20">
+                <p class="cpInfo mt60">inpWrap > checkbox // 223page 참고  //  337page 참고</p>
+                <div class="inpWrap">
+                    <div class="checkbox mt20">
+                        <input id="joinAgree" type="checkbox" class="allCheckbox" name="agree1">
+                        <label for="joinAgree">
+                            <span class="mr24">위의 내용을 모두 읽었으며 이에 동의합니다.</span>
+                        </label>
+                        <input id="joinTerms" type="checkbox" class="allCheckbox" name="agree1">
+                        <label for="joinTerms">
+                            <span class="mr24">이용약관</span>
+                        </label>
+                        <input id="joinPrivacy" type="checkbox" class="allCheckbox" name="agree1">
+                        <label for="joinPrivacy">
+                            <span>개인정보 수집 및 이용</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="requestRadio tal mt20">
+                    <input type="radio" id="test01" class="radioRound" name="request" class="round">
+                    <label for="test01">
+                        <span>테스트test01</span>
+                    </label>
+                    <input type="radio" id="test02" class="radioRound" name="request" class="round">
+                    <label for="test02">
+                        <span>테스트test02</span>
+                    </label>
+                    <input type="radio" id="test03" class="radioRound" name="request" class="round">
+                    <label for="test03">
+                        <span>테스트test03</span>
+                    </label>
+                    <input type="radio" id="test04" class="radioRound" name="request" class="round">
+                    <label for="test04">
+                        <span>테스트test04</span>
+                    </label>
+                </div>
+                <p class="cpInfo mt60">modal</p>
+                <div class="btnWrap">
+                    <button class="btnType btnSize40 btnColorCyan" onclick="popupLayerOpen();">팝업내용 확인 // 262page 참고</button>
+                    <button class="btnType btnSize40 btnColorCyan ml16" onclick="confirmLayerOpen();">컨펌창 확인 // 266page 참고</button>
+                </div>
+            </div>
+            <p class="cpInfo mt40">Search  // 316page 참고 // <a href="popup/pop_search.html" style="text-decoration: underline;">파일 참조 pop_search.html</a></p>
+            <p class="cpInfo mt40">Selection control  // 345page 참고 // <a href="popup/pop_cookieInnerPopup.html" style="text-decoration: underline;">파일 참조 pop_cookieInnerPopup.html</a></p>
+        </div>
+    </div>
+    <div class="backdrop v2" style="display: none;">
+        <div class="popWrap v2">
+            <div class="popInner">
+                <!-- popCon 변경사항 클래스 추가 후 작성  // modalType01 검색 후 사용(넓이관련) -->
+                <div class="popCon modalType01">
+                    <span class="btnPopClose" onclick="popupLayerClose();"></span>
+                    <h5 class="popTit tac">팝업 예시</h5>
+                    <p class="mt60 lih24">
+                        DS Brand Desk 소개
+                        DS Brand Desk는 모든 DS 임직원의 마케팅 제작물에 대한 브랜딩을 도와주는 브랜드 관리 플랫폼입니다.
+                        <br>
+                        <br>
+                        브랜딩에 대한 궁금증을 해소시켜주는 Q&A부터, 제작물 검수, 교정 지원까지
+                        제공하여 임직원이 언제라도 쉽게 브랜딩 업무를 해결할 수 있도록 도움을
+                        드리겠습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backdrop v2 confirm" style="display: none;">
+        <div class="alertDialogWrap">
+            <div class="alertInner">
+                <!-- alertCon 변경사항 클래스 추가 후 작성  // modalType01 검색 후 사용(넓이관련)-->
+                <div class="alertCon modalType01 passwordPropReset">
+                    <span class="btnPopClose" onclick="confirmLayerClose();"></span>
+                    <p class="alertTit tac">비밀번호를 변경하세요</p>
+                    <p class="alertCaption tac mt8">
+                        90일동안 비밀번호를 변경하지 않으셨습니다.<br>
+                        보다 안전한 서비스 이용을 위해 비밀번호를 변경을 권장합니다.
+                    </p>
+                    <div class="generateInpWrap wdh_480">
+                        <input type="password" id="presentPw" name="presentPw" autocomplete="off" required="">
+                        <label for="presentPw">현재 비밀번호</label>
+                    </div>
+                    <div class="generateInpWrap wdh_480">
+                        <input type="password" id="newPw" name="newPw" autocomplete="off" required="">
+                        <label for="newPw">새 비밀번호</label>
+                    </div>
+                    <div class="generateInpWrap wdh_480">
+                        <input type="password" id="newPw" name="newPw" autocomplete="off" required="">
+                        <label for="newPw">새 비밀번호</label>
+                        <p class="warning mt10 tal">비밀번호가 일치하지 않습니다.</p>
+                    </div>
+                </div>
+                <!-- alertCon 영역 밖으로  버튼 -->
+                <div class="btnWrap v2 mt30">
+                    <button class="">비밀번호 변경</button>
+                    <button class="">다음에 변경하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+        // 팝업
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.btnPopClose');
+        
+		function popupLayerClose(){
+            backdrop.style.display = "none";
+		};
+        
+        function popupLayerOpen(){
+            backdrop.style.display = 'flex';
+		}
+
+        let confirmBackdrop = document.querySelector('.confirm.backdrop'),
+        confirmClose = document.querySelector('.confirm .btnPopClose');
+
+        function confirmLayerClose(){
+			confirmBackdrop.style.display = 'none';
+		}
+        function confirmLayerOpen(){
+			confirmBackdrop.style.display = 'flex';
+		}
+</script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - search -->
+    <div class="backdrop v2">
+        <div class="popWrap v2">
+            <div class="popInner">
+                <!-- popCon 변경사항 클래스 추가 후 작성 -->
+                <div class="popCon modalType02 popCookieInnerPop">
+                    <span class="btnPopClose" onclick="popupLayerClose();"></span>
+                    <p class="popTit tac">Manage your cookies</p>
+                    <p class="cookieCaption mt8">
+                        Cookies are small files that store information on
+                        your computer, TV, mobile phone, or other device.
+                        They enable the entity that put the cookie on your
+                        device to recognize you across different websites,
+                        services, devices, and/or browsing sessions.
+                    </p>
+                    <div class="switchArea flexBox mt24">
+                        <p>I accept to allow all cookies</p>
+                        <label class="switch">
+                            <input type="checkbox" checked>
+                            <span class="slider round"></span>
+                          </label>
+                    </div>
+                <!-- popCon 변경사항 클래스 추가 후 작성 -->
+                <div class="btnWrap mt30">
+                    <button class="btnType btnSize40 btnColorB wdh_full">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 팝업 닫기
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.btnPopClose');
+
+		function popupLayerClose(){
+			backdrop.style.display = "none";
+		};
+    </script>
+</body>
+</html>

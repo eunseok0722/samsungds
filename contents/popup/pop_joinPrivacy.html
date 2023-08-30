@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - search -->
+    <div class="backdrop v2">
+        <div class="popWrap v2">
+            <div class="popInner">
+                <!-- popCon 변경사항 클래스 추가 후 작성-->
+                <div class="popCon modalType04 terms">
+                    <span class="btnPopClose" onclick="popupLayerClose();"></span>
+                    <!-- KO Ver -->
+                    <div id="content_ko" :style="currentLocale == 'en' ? 'display: none;' : ''" role="main">
+                        <div class="cookie-policy">
+                            <h5 class="cookie-policy-title tac">개인정보 수집·이용 동의서<br>(DS Brand Desk 웹사이트용)</h5>
+                            <!-- scroll620 -->
+                            <div class="scroll620 mt40">
+                                <div class="cookie-policy-section">
+                                    <div class="cookie-policy-section-textbox">
+                                        <p>
+                                            삼성전자 주식회사(이하 ‘회사’라 합니다)는 최초 회원 가입 또는 서비스 이용시 이용자로부터 아래와 같은 개인정보를 수집하고 있습니다. <br>
+                                            이용자는 본 개인정보 수집·이용 동의서에 따른 동의 시, '필요한 최소한의 정보 외의 개인정보' 수집·이용에 동의하지 아니할 권리가 있습니다.<br>
+                                            개인정보 처리에 대한 상세한 사항은 DS Brand Desk 웹사이트(<a href="http://semiconductor.samsung.com/branddesk" target="_black">http://semiconductor.samsung.com/branddesk</a>)에
+                                            공개한 '개인정보처리방침'을 참조하십시오. 다만, 본 동의서 내용과 상충되는 부분은 본 동의서의 내용이 우선합니다. 
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="cookie-policy-section">
+                                    <div class="cookie-policy-section-inner">
+                                        <h3 class="cookie-policy-section-inner-title">□ 개인정보 수집∙이용 동의(필수)</h3>
+                                        <div class="cookie-policy-section-textbox">
+                                            <p>
+                                                ※ 귀하께서는 필수항목 수집·이용에 대한 동의를 거부하실 수 있으나, 이는 서비스 제공에 필수적으로 제공되어야 하는 정보이므로, 동의를 거부하실 경우 회원 가입, 서비스 이용, 홈페이지 이용을 하실 수 없습니다.
+                                            </p>
+                                            <table class="cookie-policy-table">
+                                                <caption>
+                                                    개인정보 수집∙이용 동의(필수)
+                                                </caption>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">수집항목</th>
+                                                        <th scope="col">수집∙이용 목적</th>
+                                                        <th scope="col">보유∙이용 기간</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>이메일 주소, 이름, 회사명, 부서명, 휴대전화번호, IP주소, 쿠키, 서비스 이용기록, 방문기록</td>
+                                                        <td>
+                                                            - 회원관리 및 본인 확인<br>
+                                                            ∙ 사용자 식별, 회원 가입/탈퇴 의사 확인, 사용자 본인 확인<br>
+                                                            ∙ 서비스 부정 이용, 비인가 사용 등 방지, 민원 등 처리, 분쟁 대응<br>
+                                                            ∙ 공지사항 등 전달<br><br>
+                                                            - 서비스 제공<br>
+                                                            ∙ DS 브랜드 가이드 다운로드, 제작물 검수 등 서비스 제공<br><br>
+                                                            - 서비스 개선 및 개발<br>
+                                                            ∙ 고객만족 조사, 제품/서비스 이용에 대한 분석 및 통계, 시장 트렌드 분석, 기존 서비스 개선, 신규 서비스 기획∙연구∙개발<br><br>
+                                                            - 고객문의 응대<br>
+                                                            ∙ 상담 접수 및 답변 제공, 문의 내역 관리
+                                                        </td>
+                                                        <td>동의시로부터 2년</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- scroll620 -->
+                        </div>
+                    </div>
+                    <!-- KO Ver -->
+                    <!-- EN Ver -->
+                    <!-- <div id="content_en" :style="currentLocale == 'ko' ? 'display: none;' : ''" role="main">
+                        <div class="cookie-policy">
+                            <h5 class="cookie-policy-title tac">Consent to Collection and<br>Use of Personal Information<br>(DS Brand Desk Website)</h5>
+                            <div class="scroll620 mt40">
+                                <div class="cookie-policy-section">
+                                    <div class="cookie-policy-section-textbox">
+                                        <p>
+                                            Samsung Electronics, Co., Ltd. (“Company”) collects the following personal information when you sign up for an account or use our services.
+                                            You have the right to withhold your consent to collection and use of your data with the exception of the minimum information required for service provision.
+                                            To learn more, read our Privacy Policy on DS Brand Desk website (<a href="http://semiconductor.samsung.com/branddesk" target="_black">
+                                            http://semiconductor.samsung.com/branddesk</a>). In the event of any discrepancy between this Consent and the Privacy Policy, this Consent shall prevail.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="cookie-policy-section">
+                                    <div class="cookie-policy-section-inner">
+                                        <h3 class="cookie-policy-section-inner-title">□ Consent to Collection and Use of Personal Information (Required)</h3>
+                                        <div class="cookie-policy-section-textbox">
+                                            <p>
+                                                ※ You may disagree to the collection and use of required personal information. However, since your consent is required in order for us to provide our service, if you choose to opt out, then you cannot sign up for an account, use our services, or access our website.
+                                            </p>
+                                            <table class="cookie-policy-table">
+                                                <caption>
+                                                    Consent to Collection and Use of Personal Information (Required)
+                                                </caption>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">Type of Information Collected</th>
+                                                        <th scope="col">Purpose of Collection</th>
+                                                        <th scope="col">Retention Period</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>e-mail address, name, company name, department name, mobile phone number, IP address, cookie, service history, visit history</td>
+                                                        <td>
+                                                            - Membership management and identification<br>
+                                                            ∙ User identification, membership / withdrawal intention confirmation, user identity verification<br>
+                                                            ∙ Prevention of illegal use of services, unauthorized use, handling complaints, and responding to disputes<br>
+                                                            ∙ Delivery of announcements, etc.<br>
+                                                            - Service operation <br><br>
+                                                            ∙ DS brand guide download, branding material review, etc.<br>
+                                                            - Service improvement and development<br><br>
+                                                            ∙ Customer satisfaction survey, analysis and statistics on product / service use, market trend analysis, improvement of existing services, planning, research and development of new services<br>
+                                                            - Responding to customer inquiries<br><br>
+                                                            ∙ Consultation, Q&A, inquiry history management<br>
+                                                            - Responding to customer inquiries
+                                                        </td>
+                                                        <td>2 years from the time of consent</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- EN Ver -->
+                </div>
+                <!-- popCon 변경사항 클래스 추가 후 작성-->
+            </div>
+        </div>
+    </div>
+    <script>
+        // 검색하기 - 팝업 오버레이
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.btnPopClose');
+
+		function popupLayerClose(){
+			backdrop.style.display = "none";
+		};
+    </script>
+</body>
+</html>

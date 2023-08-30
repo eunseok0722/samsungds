@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - search -->
+    <div class="backdrop v2">
+        <div class="alertDialogWrap">
+            <div class="alertInner">
+                <!-- alertCon 변경사항 클래스 추가 후 작성 -->
+                <div class="alertCon modalType01 surveySatisfaction">
+                    <span class="btnPopClose" onclick="popupLayerClose();"></span>
+                    <p class="alertTit tac">[검수요청 제목]<br>디자인 검수는 어떠셨나요?</p>
+                    <p class="alertCaption tac mt8">검수프로세스 및 결과에 대한 만족도를 선택해주세요.</p>
+                    <ul class="reviewStar tac mt32">
+                        <li class="starIcon rateShow"></li>
+                        <li class="starIcon rateShow"></li>
+                        <li class="starIcon"></li>
+                        <li class="starIcon"></li>
+                        <li class="starIcon"></li>
+                    </ul>
+                    <div class="textForm mt60">
+                        <label for="">추가 의견을 입력해 주세요.(선택)</label>
+                        <textarea class="mt8" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <!-- alertCon 변경사항 클래스 추가 후 작성 -->
+                <div class="btnWrap mt30">
+                    <button class="wdh_full">제출하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 팝업 닫기
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.btnPopClose');
+
+		function popupLayerClose(){
+			backdrop.style.display = "none";
+		};
+    </script>
+</body>
+</html>

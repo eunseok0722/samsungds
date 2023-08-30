@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+
+    <link rel="stylesheet" href="/assets/css/common.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="headerContainer">
+                <div class="headerLeft">
+                    <h1 class="samsungLogo">
+                        <a href="#">
+                            <img src="https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/img/icon/global-samsung-logo.svg" alt="">
+                        </a>
+                    </h1>
+                    <nav class="topMenu">
+                        <ul class="gnb1Depth">
+                            <li class="topMenuDepth"><span>Guidelines</span></li>
+                            <li class="topMenuDepth"><span>Brand Asset</span></li>
+                            <li class="topMenuDepth"><span>Request</span></li>
+                            <li class="topMenuDepth"><span>Q&amp;A</span></li>
+                        </ul>
+                    </nav>
+                </div>
+                <ul class="rightUtil">
+                    <li class="search">
+                        <span></span>
+                    </li>
+                    <li class="user users">
+                        <span></span>
+                        <dl class="utilUserArea">
+                            <dt><em>안녕하세요! <b>삼성dsdsdsdsaaa</b>님</em></dt>
+                            <dd>나의정보</dd>
+                            <dd>로그아웃</dd>
+                        </dl>
+                    </li>
+                    <li class="language clickMe">
+                        <span>한국어</span>
+                        <ul class="utilLangOptionArea">
+                            <li class="optionBtnLang selected"><a>한국어</a></li>
+                            <li class="optionBtnLang mt10"><a>English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="subLnbMenuArea" id="subLnbTopFixed">
+                <nav class="subLnbMenu">
+                    <p class="subLnbTit">Brand strategy</p>
+                    <ul class="subLnbCenterMenu">
+                        <li class="show"><span>Brand story</span></li>
+                        <li class=""><span>Our business</span></li>
+                        <li class=""><span>Our tonality</span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- container -->
+        <div class="container">
+            <div class="visual v2">
+                <h2 class="visualTit mt45">Brand story</h2>
+            </div>
+            <div class="innerContents mt120">
+                <div class="brandStrategyCon">
+                    <div class="itemToolKit" style="padding-left: 0; width: 100%;">
+                        <p class="itemSubTit lih24">삼성은 사람을 최우선으로 하고, 우리가 창조하는 모든 것들의 중심에 사람과 그들의 니즈를 두고 있습니다.<br>삼성이 지향하는 목표는 모든 사람들의 일상 생활을 개선하고 그들이 할 수 없었던 것들을 할 수 있게 도움으로써 더 나은 사회를 만드는 것입니다.<br>그것은 우리가 관심을 갖고 있는 것들, 그리고 사람들과 연결될 수 있게 하여 상상하지 못했던 일을 가능하게 만드는 것이기도 합니다.</p>
+                        <p class="itemSubTit mt24 sin lih24">우리는 도전적 낙관주의를 지지하며, 누구나 기술에 접근할 수 있고, 선의를 위해 기술을 사용할 수 있는 환경을 조성하는 모범적인 글로벌 시민이 될 것을 약속합니다.<br>또한 우리는 이러한 약속을 진실하고 투명하게 실천합니다.<br>만약 실패하더라도 그것을 통해 교훈을 얻고 차후에는 더욱 나은 결과를 만들어 낼 것입니다.<br>우리는 난관을 기회로 여기며 기술을 통해 더 나은 세상을 만들 수 있다고 믿는 개척자입니다.<br>우리는 하나의 삼성이고, 기술 기업 이상의 가치를 추구합니다.<br>삼성은 끊임없이 사람과 사회의 번영을 돕는 라이프 스타일 브랜드 입니다.</p>
+                        <div class="itemColumn mt60">
+                            <div>
+                                <img src="/assets/images/immg/tool_bg01.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+        <!-- footer -->
+        <div class="footer v2">
+            <div class="terms">
+                <div class="footerLanguage">
+                    한국어
+                    <ul class="footerLanguageArea">
+                        <li class="footerOptLang selected"><a href="#">한국어</a></li>
+                        <li class="footerOptLang"><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <span>개인정보보호</span>
+                <span>이용약관</span>
+                <span>쿠키</span>
+                <span>삼성반도체 바로가기</span>
+                <span>Copyrightⓒ 2022 Samsung ALL rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    // header - User
+    let userBtn = document.querySelectorAll('.users'),
+    utilUserArea = document.querySelector('.utilUserArea');
+
+    console.log(userBtn);
+    console.log(utilUserArea);
+    userBtn[0].addEventListener("click", function(){
+        if(!utilUserArea.classList.contains('show')){
+            utilUserArea.classList.add('show');
+        } else {
+            utilUserArea.classList.remove('show');
+        }
+    })
+    
+    // header - language
+    let languageBtn = document.querySelectorAll('.language'),
+    utilLangOptionArea = document.querySelectorAll('.utilLangOptionArea'),
+    optionBtnLang = document.querySelectorAll('.optionBtnLang');
+
+
+    languageBtn[0].addEventListener("click", function(){
+        if(!utilLangOptionArea[0].classList.contains('show')){
+            utilLangOptionArea[0].classList.add('show');
+        } else {
+            utilLangOptionArea[0].classList.remove('show');
+        }
+    })
+
+    for(j = 0; j < optionBtnLang.length; j++){
+        optionBtnLang[j].addEventListener("mouseover", function(){
+            this.classList.add('selected');
+        })
+        optionBtnLang[j].addEventListener("mouseleave", function(){
+            this.classList.remove('selected');
+        })
+    }
+</script>
+
+</html>

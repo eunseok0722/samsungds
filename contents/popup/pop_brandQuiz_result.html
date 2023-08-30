@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - BrandQuiz result Start-->
+    <div class="backdrop v2">
+        <div class="modalType08 intermediate"> <!-- 입문자 : beginner, 중급자 : intermediate, 수호자 : tutelar, 마스터 : master, 히어로 : hero -->
+            <!-- 20230221 수정 -->
+            <span class="btnPopClose" onclick="popupLayerClose();"></span>
+            <div class="brandQuiz_result">
+                <div class="brandQuiz_result_score_box">
+                    <div class="brandQuiz_result_score">
+                        <span>95</span>
+                    </div>
+                    <span>점</span>
+                </div>
+            </div>
+            <div class="brandQuiz_result_area">
+                <a href="#" target="_blank" class="result_show"></a>
+                <button type="button" class="result_share" onclick="copyNowUrl()"></button>
+            </div>
+            <!-- //20230221 수정 -->
+        </div>
+    </div>
+    <script>
+        // popup 닫기
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.btnPopClose');
+
+		function popupLayerClose(){
+			backdrop.style.display = "none";
+		};
+
+        // 공유하기 : 20230221 추가
+        let nowUrl = window.location.href;
+
+        function copyNowUrl() {
+            navigator.clipboard.writeText(nowUrl).then(res => {
+                alert("URL이 복사되었습니다.");
+            });
+        }
+    </script>
+</body>
+</html>

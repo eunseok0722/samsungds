@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header" id="header">
+            <div class="headerContainer">
+                <div class="headerLeft">
+                    <h1 class="samsungLogo">
+                        <a href="#">
+                            <img src="https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/img/icon/global-samsung-logo.svg" alt="">
+                        </a>
+                    </h1>
+                </div>
+                <ul class="rightUtil">
+                    <li class="users logoutUser clickMe">
+                        <span></span>
+                        <dl class="utilUserArea">
+                            <dd class="clickMe">로그인</dd>
+                            <dd class="clickMe">회원가입</dd>
+                        </dl>
+                    </li>
+                    <li class="language clickMe">
+                        <span>한국어</span>
+                        <ul class="utilLangOptionArea">
+                            <li class="optionBtnLang selected"><a>한국어</a></li>
+                            <li class="optionBtnLang mt10"><a>English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="introContainer">
+            <div class="introVisualArea">
+                <div class="introVisual"></div>
+            </div>
+            <div class="introCon">
+                <h2 class="introTit">Welcome to<br>DS Brand Desk</h2>
+                <p class="introSubTit mt30">DS 부문 브랜딩의 올바른 방향, 브랜드 데스크에서 찾아보세요.</p>
+                <div class="introBtnWrap mt60">
+                    <div class="btnWrap">
+                        <button class="btnType btnSize40 btnLineW">로그인</button>
+                        <button class="btnType btnSize40 btnLineW ml16">회원가입</button>
+                    </div>
+                    <hr>
+                    <div class="btnWrap">
+                        <button class="btnType btnSize40 btnColorW">Knox(임직원)로 로그인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer introFooter">
+            <div class="terms">
+                <div class="footerLanguage">
+                    한국어
+                    <ul class="footerLanguageArea">
+                        <li class="footerOptLang selected"><a href="#">한국어</a></li>
+                        <li class="footerOptLang"><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <span>개인정보보호</span>
+                <span>이용약관</span>
+                <span>쿠키</span>
+                <span>삼성반도체 바로가기</span>
+                <span>Copyrightⓒ 2022 Samsung ALL rights reserved.</span>
+            </div>
+        </div>
+    </div>
+
+        <!-- footer -->
+    </div>
+
+    <script>
+        // header - User
+        let userBtn = document.querySelectorAll('.users'),
+        utilUserArea = document.querySelector('.utilUserArea');
+
+        console.log(userBtn);
+        console.log(utilUserArea);
+        userBtn[0].addEventListener("click", function(){
+            if(!utilUserArea.classList.contains('show')){
+                utilUserArea.classList.add('show');
+            } else {
+                utilUserArea.classList.remove('show');
+            }
+        })
+        
+        // header - language
+        let languageBtn = document.querySelectorAll('.language'),
+        utilLangOptionArea = document.querySelectorAll('.utilLangOptionArea'),
+        optionBtnLang = document.querySelectorAll('.optionBtnLang');
+
+        console.log(languageBtn);
+        languageBtn[0].addEventListener("click", function(){
+            if(!utilLangOptionArea[0].classList.contains('show')){
+                utilLangOptionArea[0].classList.add('show');
+            } else {
+                utilLangOptionArea[0].classList.remove('show');
+                }       
+            })
+
+        for(j = 0; j < optionBtnLang.length; j++){
+            optionBtnLang[j].addEventListener("mouseover", function(){
+                this.classList.add('selected');
+            })
+            optionBtnLang[j].addEventListener("mouseleave", function(){
+                this.classList.remove('selected');
+            })
+        }
+        console.log(optionBtnLang.length);
+    </script>
+</body>
+</html>

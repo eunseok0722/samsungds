@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="/assets/css/common.css">
+</head>
+<script>
+function selectAll(selectAll) {
+    const checkboxes
+    = document.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach((checkbox) => {
+    checkbox.checked = selectAll.checked
+    })
+}
+</script>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="headerContainer">
+                <div class="headerLeft">
+                    <h1 class="samsungLogo">
+                        <a href="#">
+                            <img src="https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/img/icon/global-samsung-logo.svg" alt="">
+                        </a>
+                    </h1>
+                    <nav class="topMenu">
+                        <ul class="gnb1Depth">
+                            <li class="topMenuDepth"><span>Guidelines</span></li>
+                            <li class="topMenuDepth"><span>Brand Asset</span></li>
+                            <li class="topMenuDepth"><span>Request</span></li>
+                            <li class="topMenuDepth"><span>Q&amp;A</span></li>
+                        </ul>
+                    </nav>
+                </div>
+                <ul class="rightUtil">
+                    <li class="search">
+                        <span></span>
+                    </li>
+                    <li class="user users">
+                        <span></span>
+                        <dl class="utilUserArea">
+                            <dt><em>안녕하세요! <b>삼성dsdsdsdsaaa</b>님</em></dt>
+                            <dd>나의정보</dd>
+                            <dd>로그아웃</dd>
+                        </dl>
+                    </li>
+                    <li class="language clickMe">
+                        <span>한국어</span>
+                        <ul class="utilLangOptionArea">
+                            <li class="optionBtnLang selected"><a>한국어</a></li>
+                            <li class="optionBtnLang mt10"><a>English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="joinWrap">
+            <div class="joinInfoWrite myInfoArea type02">
+                <h4>나의 정보</h4>
+                <section>
+                    <div class="tableWrap">
+                        <table>
+                            <caption>myInfo</caption>
+                            <colgroup>
+                                <col style="width: 30%">
+                                <col style="width: auto">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>이메일 아이디</th>
+                                    <td>
+                                        <em class="disabled">semiconductor@naver.com</em>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>비밀번호</th>
+                                    <td>
+                                        <div class="btnWrap tal">
+                                            <button class="btnType btnSize40 btnLineCyan">비밀번호 재설정</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>이름</th>
+                                    <td>
+                                        <em class="disabled">이름 표시</em>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>휴대폰</th>
+                                    <td>
+                                        <div class="intWrap wdh_500">
+                                            <input class="txtInp" type="text" placeholder="">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>회사명</th>
+                                    <td>
+                                        <em class="disabled">회사명 표시</em>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>부서명</th>
+                                    <td>
+                                        <div class="intWrap wdh_500">
+                                            <input class="txtInp" type="text" placeholder="">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>가입목적</th>
+                                    <td>
+                                        <div class="textForm wdh_500">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="가입목적 내용"></textarea>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="tal">삼성반도체 담당임직원<br>이메일 주소</th>
+                                    <td>
+                                        <div class="intWrap wdh_500">
+                                            <input class="txtInp" type="text" placeholder="">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="tal">Brand Application Toolkit<br>다운로드 권한</th>
+                                    <td>
+                                        <div class="btnWrap v3 tal">
+                                            <button class="btnType btnSize40 noRequest mr24">요청안함</button>
+                                            <button class="btnType btnSize40 btnLineCyan">요청</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="btnWrap myInfoAreaBtnWrap mt60">
+                        <button class="btnType btnSize40 btnLineB">취소</button>
+                        <button class="btnType btnSize40 btnColorB ml16">저장</button>
+                        <button class="btnType btnSize40 btnColorB accountDel">회원탈퇴</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="terms">
+                <div class="footerLanguage">
+                    한국어
+                    <ul class="footerLanguageArea">
+                        <li class="footerOptLang selected"><a href="#">한국어</a></li>
+                        <li class="footerOptLang"><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <span>개인정보보호</span>
+                <span>이용약관</span>
+                <span>쿠키</span>
+                <span>삼성반도체 바로가기</span>
+                <span>Copyrightⓒ 2022 Samsung ALL rights reserved.</span>
+            </div>
+        </div>
+        <!-- footer -->
+    </div>
+
+    <script>
+        let inpWrap = document.querySelectorAll('.inpWrap');
+        let input = document.querySelectorAll('.txtInp');
+        let label = document.querySelectorAll('.inpTit');
+        console.log(inpWrap);
+        console.log(input);
+        console.log(label);
+
+        for(i = 0; i < inpWrap.length; i++){
+            inpWrap[i].addEventListener("click", function(){
+                // label[i].style.display="block";
+                for(j = 0; j < this.childNodes.length; j++){
+                    let element = this.childNodes[j];
+                    if(element.tagName == 'LABEL'){
+                        element.style.display = "block";
+                    }
+                }
+            })
+        }
+
+        for(i = 0; i < input.length; i++){
+            input[i].addEventListener("focusout", function(){
+                this.previousElementSibling.style.display = "none";
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="ijcfb3trxa">
+            <path data-name="패스 42" d="m77.036 227.128 1.305 1.29-8.307 8.214-4.615-4.563 1.305-1.29 3.31 3.272zM62 232a10 10 0 1 0 10-10 10 10 0 0 0-10 10" style="fill:none"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 40">
+        <g data-name="그룹 39" style="clip-path:url(#ijcfb3trxa)" transform="translate(-62 -222)">
+            <path data-name="사각형 26" transform="translate(61 221)" style="fill:#2189ff" d="M0 0h22v22H0z"/>
+        </g>
+    </g>
+</svg>

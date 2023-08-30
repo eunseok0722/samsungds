@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - search -->
+    <div class="backdrop v2">
+        <div class="alertDialogWrap">
+            <div class="alertInner">
+                <!-- alertCon 변경사항 클래스 추가 후 작성 -->
+                <div class="alertCon modalType01 authority imgLibrary"><!-- 20230519 추가 : imgLibrary -->
+                    <span class="btnPopClose" onclick="popupLayerClose();"></span>
+                    <p class="alertTit tac">Request for Permission</p>
+                    <hr class="mt20">
+
+                    <div class="itemToolKit">
+                        <p class="itemSubTit2">Library Name :  People</p>
+                        <p class="itemTxt lih21">Permissions are required to access and download images from the library.<br/>Please submit the reason(Content usage) for requesting permission.</p>
+                        <!-- <p class="itemTxt2 mt17">※ Permissions may not be granted if they are unnecessary after administrator review.</p> -->
+                        <p class="itemTxt2 mt17">※ Permissions may not be granted if unnecessary after administrator’s review.</p><!-- 20230519 수정 -->
+                    </div>
+
+                    <div class="textForm mt22">
+                        <label for="">
+                        <textarea name="" id="" cols="30"  rows="10" placeholder="Please enter the reason for application. (up to 500 characters)"></textarea></label>
+                    </div>
+                    
+                </div>
+                <!-- alertCon 변경사항 클래스 추가 후 작성 -->
+                <div class="btnWrap v2 mt30">
+                    <button class="">Cancel</button>
+                    <button class="">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // 팝업 닫기
+        let backdrop = document.querySelector('.backdrop'),
+        popClose = document.querySelector('.btnPopClose');
+
+        function popupLayerClose(){
+          backdrop.style.display = "none";
+        };
+    </script>
+</body>
+</html>

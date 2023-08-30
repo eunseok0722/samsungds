@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - BrandQuiz Close Start -->
+    <div class="backdrop v2">
+        <!-- 20230221 수정 -->
+        <div class="brandQuiz_background modalType06">            
+            <div class="brandQuiz_completeImg"></div>
+            <div class="brandQuiz_completetxt">
+                <p>브랜드 능력고사 중간고사에<br/>참여해 주셔서 감사합니다.</p>
+                <div class="sub_comtxt">더 재미있고 다양한 문제로 돌아오겠습니다.<p>기말고사도 함께해요!</p></div>
+            </div>
+            <button class="brandQuiz_complete_close" onclick="popupLayerClose();">종료하기</button>
+        </div>
+        <!-- //20230221 수정 -->
+    </div>
+    <!-- popup - BrandQuiz Close End -->
+    <script>
+        
+        // popup 닫기 : 20230221 수정
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.brandQuiz_complete_close');
+
+		function popupLayerClose(){
+			backdrop.style.display = "none";
+		};
+    </script>
+</body>
+</html>

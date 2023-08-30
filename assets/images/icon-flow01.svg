@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.25" height="41.25" viewBox="0 0 41.25 41.25">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        stroke-width: 2.5px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="패스_71" data-name="패스 71" class="cls-1" d="M270.131,815.526a1.646,1.646,0,0,0-1.631,1.657V851.26a1.646,1.646,0,0,0,1.631,1.657h33.545a1.646,1.646,0,0,0,1.631-1.657V834.221h-2.33V850.55H270.83V817.893H286.9v-2.366Z" transform="translate(-268.5 -815.526)"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_108" data-name="그룹 108" transform="translate(-169.5 -1380.75)">
+    <g id="그룹_107" data-name="그룹 107" transform="translate(169.5 1384.61)">
+      <g id="그룹_104" data-name="그룹 104" transform="translate(0 0)">
+        <g id="그룹_103" data-name="그룹 103" class="cls-2">
+          <rect id="사각형_37" data-name="사각형 37" class="cls-3" width="37.739" height="38.362" transform="translate(-0.466 -0.498)"/>
+        </g>
+      </g>
+    </g>
+    <circle id="타원_1" data-name="타원 1" class="cls-4" cx="9.5" cy="9.5" r="9.5" transform="translate(190.5 1382)"/>
+    <path id="패스_72" data-name="패스 72" class="cls-4" d="M-298.243,1312.708v6.325h5.251" transform="translate(497.938 73.877)"/>
+  </g>
+</svg>

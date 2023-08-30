@@ -1,0 +1,107 @@
+
+ .visual.v2 { background: url("/assets/images/immg/toolTap.png") #000 no-repeat center center;} 
+ 
+.innerContents .itemToolKit { width: calc(100% - 330px); padding-left: 142px; font-family: "Samsung One KR";;} 
+.itemToolKit h4 { font-weight: 600; font-size: 18px; line-height:24px; margin-bottom: 24px;} 
+
+dl.itemTit { font-size: 18px; line-height: 24px; font-weight: 600; margin-bottom: 60px; font-family: "SamsungOne"} 
+dl.itemTit dt { margin-right: 24px; float: left; } 
+dl.itemTit dd { font-size: 18px; line-height:24px } 
+
+.itemTxt { line-height: 24px; font-size: 16px; font-family: "Samsung One KR";} 
+.itemTxt2 { line-height: 18px; font-size: 12px; font-family: "Samsung One KR"; color:#8F8F8F} /* 20230519 추가 */
+
+.fnt20 { font-size: 20px !important;}
+.fnt18 { font-size: 18px !important;}
+.fnt16 { font-size: 16px !important;}
+.fnt14 { font-size: 14px !important;}
+
+.itemSubTit { font-size: 18px; line-height: 24px; font-weight: 600; margin-bottom: 24px; font-family: "Samsung One KR";} 
+.itemEle { font-size: 16px; line-height: 24px; font-weight: 600; margin-bottom: 24px; } 
+/* 20230421 Add */
+.itemSubTit2{ font-size: 20px; line-height: 21px; font-weight: 700; margin: 26px 0 18px; font-family: "Samsung One KR";}
+/* .itemEle2{ font-size: 16px; line-height: 21px; font-weight: 400; margin-bottom: 17px; } */
+.itemTxt2{ font-size: 12px; line-height: 18px; font-weight: 400; color: #8F8F8F; font-family: "Samsung One KR";}
+
+.mb60 {margin-bottom: 60px !important;}
+.mb24 {margin-bottom: 24px !important;}
+.mt0 {margin-top: 0 !important;}
+.itemToolKit .itemTxt.v3 { font-size: 18px; line-height: 24px; margin-left: 15px; position: relative } 
+.itemToolKit .itemTxt.v3::before { content: "*"; position: absolute; left: -15px; top: 3px; } 
+.itemToolKit .itemTxt.v4 { text-align: right; font-size: 16px; line-height: 24px; margin-left: 15px; font-weight: 300; position: relative } 
+.itemToolKit .itemTxt.v4 strong { display: contents; font-size: 16px; font-weight: 600; } 
+
+/* *코멘트*/
+.itemToolKit dl.toolTitList,
+.itemToolKit ul.toolTitList { margin-top: 16px; } 
+
+.itemToolKit dl.toolTitList li,
+.itemToolKit ul.toolTitList li { font-size: 16px; line-height: 24px; } 
+
+.toolTitList li > span { color: #ef3434; } 
+.redFt { color: #ef3434 !important; } 
+
+.listnum li { list-style: decimal !important; line-height: 24px;  font-size: 14px;} 
+.listnumNo li { list-style:none !important; font-size: 14px; } 
+
+
+.itemToolKit .imgTool { width: 684px; } 
+.itemToolKit .imgTool.v1 { border: 1px solid #707070; } 
+.itemToolKit .imgTool.v2 { border: 1px solid #ddd; } 
+.itemToolKit .imgTool.v3 { border: 1px solid #ddd; width: 100%; } 
+.itemToolKit .imgTool.v4 { border: none } 
+.imgTool.v4 { width: auto } 
+
+.itemToolKit .rightCon { margin-left: 118px; } 
+
+ /* dont do That */
+.itemToolKit .dontList { width: 100%; display: flex; flex-wrap: wrap; } 
+.itemToolKit .dontList li { flex-basis: calc((100% / 2) - 1rem); font-weight: 600; font-size: 18px; line-height: 24px; margin-bottom: 60px;  font-family: "Samsung One KR";} 
+.itemToolKit .dontList li > img { width: 324px; display: block; border: 1px solid #ddd; margin-top: 24px; border: 1px solid #ddd; } 
+
+
+.colorList { width: 97%; justify-content: space-between; display: flex; margin-bottom: 24px; } 
+.colorList li { font-size: 18px; font-weight: 600; } 
+
+
+
+.toolTable table { width: 100%; border-collapse: separate !important; text-align: center; border-left: 3px solid #fff; border-top: 1px solid #707070; border-right: 2px solid #fff; } 
+
+.toolTable caption { margin: 0; padding: 0; width: 1px; height: 1px; line-height: 0; font-size: 0; visibility: hidden; } 
+
+.toolTable thead th { border-bottom: 1px solid #707070; } 
+.toolTable th { border-bottom: 1px solid #707070; border-right: 1px solid #707070;; border-style: solid; line-height: 1.29; text-align: center; font-size: 14px; font-weight: 600; padding: 10px 5px; } 
+.sin { font-weight: 300; } 
+.toolTable th.fw12 { font-size: 12px; } 
+
+.toolTable th.thCol01 { background-color: #000; color: #fff; } 
+.toolTable th.thCol02 { background-color: #333; color: #fff; } 
+.toolTable th.thCol03 { background-color: #666; color: #fff; } 
+.toolTable th.thCol04 { background-color: #999; color: #fff; } 
+.toolTable th.thCol05 { background-color: #ddd; color: #000; } 
+.brNo { border-right: none !important; } 
+.brIn { border-right: 1px solid #000 !important; } 
+.toolTable tr { border-bottom: 1px solid #707070; } 
+
+.toolTable td { padding: 0 0 0 6px; height: 29px; line-height: 28px; border-bottom: 1px solid #707070; font-size: 12px; border-left: 1px solid #707070; text-align: left; } 
+.toolTable .brT { border-top: 1px solid black; } 
+.toolTable td .selWrap2 select:first-child { margin-left: 0; } 
+.toolTable dl { margin: 8px; line-height: 18px; } 
+.toolTable dl dt { font-weight: 600; } 
+
+
+
+.snpFont { font-family:'Samsung Sharp Sans'; font-size: 16px; line-height: 24px; } 
+
+/* font 작은거 */
+.smFnt { font-size: 14px !important; } 
+.colBlck { color: #000 !important; } 
+
+/*imagery*/
+.imageryList li { float: left; width: 20%; text-align: center; margin-bottom: 20px; font-size: 14px; } 
+
+/* product */
+.product_list {
+ width: 95%; justify-content: space-between; display: flex; margin-bottom: 24px; font-size: 16px; } 
+
+ .blockarea { display: inline-block;}

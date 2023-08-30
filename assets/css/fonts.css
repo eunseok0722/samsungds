@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Samsung One';
+    font-weight: 400;
+    src: local("SamsungOne"),
+    url("../fonts/SamsungOne-400.woff2") format("woff2"),
+    url("../fonts/SamsungOne-400.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Samsung One';
+    font-weight: 700;
+    src: local("SamsungOne"),
+    url("../fonts/SamsungOne-700.woff2") format("woff2"),
+    url("../fonts/SamsungOne-700.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Samsung One KR';
+    font-weight: 400;
+    unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+    src: url("../fonts/SamsungOneKorean-400.woff2") format("woff2"),
+    url("../fonts/SamsungOneKorean-400.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Samsung One KR';
+    font-weight: 700;
+    unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+    src: url("../fonts/SamsungOneKorean-700.woff2") format("woff2"),
+    url("../fonts/SamsungOneKorean-700.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    font-weight: 500;
+    src: local("SamsungSharpSansBold"),
+    url("../fonts/SamsungSharpSans-Medium.woff2") format("woff2"),
+    url("../fonts/SamsungSharpSans-Medium.woff") format("woff");
+ 
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    font-weight: 700;
+    src: local("SamsungSharpSansMedium"),
+    url("../fonts/SamsungSharpSans-Bold.woff2") format("woff2"),
+    url("../fonts/SamsungSharpSans-Bold.woff") format("woff");
+}
+
+/* Webfont: SamsungOne */
+@font-face {
+    font-family: 'SamsungOne';
+    src: local("SamsungOne"),
+    url("../fonts/SamsungOne-400.woff2") format("woff2"),
+    url("../fonts/SamsungOne-400.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOne';
+    src: local("SamsungOne"),
+    url("../fonts/SamsungOne-700.woff2") format("woff2"),
+    url("../fonts/SamsungOne-700.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOne800';
+    src: local("SamsungOne"),
+    url("../fonts/SamsungOne-700.woff2") format("woff2"),
+    url("../fonts/SamsungOne-700.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Samsung Sharp Sans (MiniSite AS-IS) > To-Be font로 바꿈  */
+@font-face {
+    font-family: 'SamsungSharpSans';
+    src: local("SamsungSharpSansMedium"),
+    url("../fonts/SamsungSharpSans-Bold.woff2") format("woff2"),
+    url("../fonts/SamsungSharpSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Samsung Sharp Sans */
+@font-face {
+    font-family: 'SamsungSharpSans-Medium';
+    src: local("SamsungSharpSansBold"),
+    url("../fonts/SamsungSharpSans-Medium.woff2") format("woff2"),
+    url("../fonts/SamsungSharpSans-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* samsungIcon */
+@font-face {
+    font-family: 'samsungIcon';
+    src: url("../fonts/samsungIcon.eot");
+    src: url("../fonts/samsungIcon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/samsungIcon.woff") format("woff"),
+    url("../fonts/samsungIcon.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'samsungIcon';
+    src: url("../fonts/samsungIcon2.eot");
+    src: url("../fonts/samsungIcon2.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/samsungIcon2.woff") format("woff"),
+    url("../fonts/samsungIcon2.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* SamsungOneKorean */
+@font-face {
+    font-family: 'SamsungOneKorean';
+    src: url("../fonts/SamsungOneKorean-400.eot");
+    src: url("../fonts/SamsungOneKorean-400.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SamsungOneKorean-400.woff2") format("woff2"),
+    url("../fonts/SamsungOneKorean-400.woff") format("woff"),
+    url("../fonts/SamsungOneKorean-400.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOneKorean';
+    src: url("../fonts/SamsungOneKorean-600.eot");
+    src: url("../fonts/SamsungOneKorean-600.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SamsungOneKorean-600.woff") format("woff"),
+    url("../fonts/SamsungOneKorean-600.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SamsungOneKorean';
+    src: url("../fonts/SamsungOneKorean-700.eot");
+    src: url("../fonts/SamsungOneKorean-700.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SamsungOneKorean-700.woff2") format("woff2"),
+    url("../fonts/SamsungOneKorean-700.woff") format("woff"),
+    url("../fonts/SamsungOneKorean-700.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SAMSUNGSHARPSANS-MEDIUM';
+    src: url("../fonts/SamsungOneKorean-700.eot");
+    src: url("../fonts/SamsungOneKorean-700.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SamsungSharpSans-Medium.woff") format("woff"),
+    url("../fonts/SamsungSharpSans-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

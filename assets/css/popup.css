@@ -1,0 +1,456 @@
+.modalType01{width: 684px;}
+.modalType02{width: 448px;}
+.modalType03{width: 1392px;}
+.modalType04{width: 1156px;}
+.modalType05{width: 872px;}
+/* 20230125 추가 */
+.modalType06{width: 1100px;}
+.modalType07{width: 800px;}
+.modalType08{width: 650px;}
+/* // 20230125 추가 */
+
+.scroll500{max-height: 500px; padding: 0 8px 20px 0; overflow-y: auto;}
+.scroll620{max-height: 620px; padding-right: 8px; overflow-y: auto;}
+/* 20230125 추가 */
+.scroll800 {max-height: 800px; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;}
+.scroll800::-webkit-scrollbar {display: none;}
+/* // 20230125 추가 */
+
+.backdrop{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 150;}
+.backdrop.v2{display: flex; justify-content: center; align-items: center;}
+
+/* popup - PopupCommon */
+.backdrop .popWrap{}
+.backdrop .popWrap .popInner{padding: 24px;}
+.backdrop .popWrap .popInner .popCon{position: relative; margin: 0 auto;}
+.backdrop .popWrap .popInner .popCon .btnPopClose{position: absolute; top: -48px; right: -24px; display: inline-block; width: 16px; height: 16px; background: url("/assets/images/icon-popClose_white.svg") no-repeat center center; cursor: pointer;}
+.backdrop .popWrap .popInner .popCon .popTit{font-size: 64px; color: #fff; font-weight: 600;}
+
+.backdrop .popWrap.v2{background-color: #fff; border-radius: 20px;}
+.backdrop .popWrap.v2 .popInner .popCon .btnPopClose{position: absolute; display: inline-block; width: 24px; height: 24px; top: 0; right: 0; background: url("/assets/images/icon-popClose-000.svg") no-repeat center center; cursor: pointer;}
+.backdrop .popWrap.v2 .popInner .popCon .popTit{font-size: 24px; padding-top: 48px; line-height: 32px; color: #000; font-weight: bold;}
+
+/* modal - alertCommon */
+.backdrop .alertDialogWrap{position: relative; background-color: #fff; border-radius: 20px;}
+.backdrop .alertDialogWrap .alertInner{}
+.backdrop .alertDialogWrap .alertInner .alertCon{padding: 72px 24px 0 24px;}
+.backdrop .alertDialogWrap .alertInner .alertCon .btnPopClose{position: absolute; display: inline-block; width: 24px; height: 24px; top: 24px; right: 24px; background: url("/assets/images/icon-popClose-000.svg") no-repeat center center; cursor: pointer;}
+.backdrop .alertDialogWrap .alertInner .alertCon .alertTit{font-size: 24px; line-height: 32px; font-weight: bold;}
+.backdrop .alertDialogWrap .alertInner .alertCon .alertCaption{font-size: 16px; line-height: 21px; font-weight: 400;}
+.backdrop .alertDialogWrap .alertInner .btnWrap{height: 64px; border-top: 1px solid #ddd;}
+.backdrop .alertDialogWrap .alertInner .btnWrap button{height: 100%; font-size: 18px; font-weight: normal;}
+.backdrop .alertDialogWrap .alertInner .btnWrap.v2{display: flex;}
+.backdrop .alertDialogWrap .alertInner .btnWrap.v2 button{width: 50%;}
+.backdrop .alertDialogWrap .alertInner .btnWrap.v2 button + button{border-left: 1px solid #ddd; border-radius: 0 0 20px 0;}
+
+/* popup - cookie */
+.backdrop .popWrap .popInner .popCon.popCookie{padding: 32px 24px; border-radius: 20px; background-color: #fff; position: absolute; bottom: 24px; left: 0; right: 0; margin: auto;}
+.backdrop .popWrap .popInner .popCon.popCookie .btnPopClose{position: absolute; display: inline-block; width: 24px; height: 24px; top: 24px; right: 24px; background: url("/assets/images/icon-popClose-000.svg") no-repeat right top; background-size: 16px 16px; cursor: pointer;}
+.backdrop .popWrap .popInner .popCon.popCookie .popTit{font-size: 18px; color: #000;}
+.backdrop .popWrap .popInner .popCon.popCookie .caption{line-height: 18px; font-size: 12px; font-weight: 400;}
+.backdrop .popWrap .popInner .popCon.popCookie .caption a{text-decoration: underline; font-weight: 700;}
+.backdrop .popWrap .popInner .popCon.popCookie .btnWrap{position: absolute; right: 24px; bottom: 32px;}
+
+/* popup - Search */
+.popWrap .popInner .popSrchHead{position: relative;}
+.popWrap .popInner .popSrchHead .popTit{font-family: "Samsung One KR","Samsung Sharp Sans",sans-serif; font-size: 64px; color: #fff; font-weight: 600;}
+.popWrap .popInner .popSrchHead .btnPopClose{position: absolute; left: 850px; right: 0px; top: -48px; margin: auto; width: 16px; height: 16px; display: inline-block; background: url("/assets/images/icon-popClose_white.svg") no-repeat center center; cursor: pointer;}
+
+.srchArea{margin-top: 28px; background-color: #fff; border-radius: 30px;}
+.srchArea .srchWrap{position: relative; height: 56px;}
+.srchArea .srchWrap .iconSrch{position: absolute; left: 24px; top: 0; bottom: 0; margin: auto; width: 24px; height: 24px; display: inline-block; background: url("/assets/images/icon-popSearch.svg") no-repeat center center;}
+.srchArea .srchWrap .inpSrch{height: 100%; border: 0; border-radius: 30px; padding: 0 64px; outline: none;}
+.srchArea .srchWrap .iconSrchDel{position: absolute; width: 11px; height: 11px; display: inline-block; right: 22px; top: 0; bottom: 0; margin: auto; background: url("/assets/images/icon-popSearchDel-8f8f8f.svg") no-repeat;}
+.srchArea .srchHistory{position: relative; padding: 0 16px 0 24px;}
+.srchArea .srchHistory dl{}
+.srchArea .srchHistory dl dt{font-size: 18px; font-weight: 600;}
+.srchArea .srchHistory dl dd{}
+.srchArea .srchHistory .btnWrap{position: absolute; top: 0; right: 16px;}
+.srchArea .srchHistory .btnWrap button{margin-bottom: 8px;}
+
+.infoExtend{height: 40px; line-height: 40px; padding: 0 24px; font-weight: 700; font-size: 18px;}
+
+.srchClose{height: 46px; line-height: 46px; padding-right: 16px; border-top: 1px solid #ccc;}
+.srchClose span{}
+.srchClose span:after{content: ""; display: inline-block; width: 11px; height: 11px; background: url("/assets/images/icon-popSearchDel-8f8f8f.svg") no-repeat center center; margin-left: 4px;}
+
+/* popup - popInspectionRequestGuide */
+.popInspectionRequestGuide{}
+.popInspectionRequestGuide .tabArea{display: flex; justify-content: center; align-items: center;}
+.popInspectionRequestGuide .tabArea .tabLinks{display: inline-block; line-height: 20px; font-size: 16px; text-align: center; font-weight: 700; color: #aaa; cursor: pointer;}
+.popInspectionRequestGuide .tabArea .tabLinks.active{color: #000;}
+.popInspectionRequestGuide .tabArea .tabLinksVerLine{display: inline-block; width: 1px; height: 20px; background-color:#ddd; margin: 0 24px;}
+
+.popInspectionRequestGuide .tabCon{width: 568px; margin: 0 auto; border-top: 1px solid #8f8f8f;}
+.popInspectionRequestGuide .tabCon .tabInnerTit{font-size: 20px; color: #2189ff;}
+.popInspectionRequestGuide .tabCon .tabInnerCaption{line-height: 21px; font-weight: 400;}
+
+.popInspectionRequestGuide .tabCon .tabInnerImgArea{}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea .imgCaption{font-size: 16px; font-weight: 700; color: #000; font-family: "Samsung One", sans-serif !important;}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea div{}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea div img{}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea ul{gap: 16px}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea ul li{display: flex; flex-direction: column; width: 100px;}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea ul li .iconBox{}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea ul li .iconBox img{}
+.popInspectionRequestGuide .tabCon .tabInnerImgArea ul li .infoCaption{display: inline-block; text-align: center; margin-top: 10px; font-size: 11px; line-height: 16px; font-weight: 400;}
+.popInspectionRequestGuide .tabCon dl{}
+.popInspectionRequestGuide .tabCon dl dt{font-size: 16px; line-height: 21px; font-weight: 700;}
+.popInspectionRequestGuide .tabCon dl dd{line-height: 21px; font-weight: 400;}
+
+/* popup - popCookieInnerPop */
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .popTit{padding-top: 8px;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .cookieCaption{font-size: 18px; line-height: 24px; font-weight: 400;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea{justify-content: space-between; align-items: center;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea p{font-size: 16px; line-height: 24px; font-weight: 700;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch{position: relative; width: 40px; height: 24px;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch input{opacity: 0; width: 0; height: 0;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch .slider{position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ddd; border-radius: 12px; transition: 0.3s ease-in-out;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch .slider::before{content: ""; position: absolute; height: 20px; width: 20px; left: 2px; bottom: 0; top: 0; margin: auto; background-color: #fff; border-radius: 50%;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch input:checked + .slider{background-color: #2189FF;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch input:checked:hover + .slider{background-color: #006FF2;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch input:checked + .slider:before{left: 18px; transition: 0.3s ease-in-out;}
+.backdrop .popWrap .popInner .popCon.popCookieInnerPop.popCon .switchArea .switch .slider.round:before{transition: 0.3s ease-in-out;}
+
+/* popup - popImageLibrary */
+.popImageLibrary .chkBox{width: 730px; margin: 0 auto; padding-top: 16px;}
+.popImageLibrary .chkBox input{margin: 0; width: 20px; height: 20px; cursor: pointer;}
+
+/* 20230221 수정 */
+/* popup - brandQuiz */
+.backdrop .brandQuiz_background {background-image: url('../images/pop_brandQuiz_background.png'); background-size: 100% 100%; background-repeat: no-repeat; border-radius: unset;}
+/* .popCon.modalType06 {padding: 50px 80px 30px 80px;} */
+.popCon.modalType06 {padding: 0 80px 30px 80px;}
+/*  popup - brandQuiz - mainBanner */
+.brandQuiz_banner {width: 940px; height: 383px; background-image: url('../images/pop_brandQuiz_banner.png'); background-size: 100% auto; background-repeat: no-repeat;}
+.brandQuiz_banner_solution {width: 940px; height: 383px; background-image: url('../images/pop_brandQuiz_solution_banner.png'); background-size: 100% auto; background-repeat: no-repeat;}
+/*  popup - brandQuiz - subBanner */
+.brandQuiz_subBanner {width: 680px; height: 50px; margin: 28px 0 60px 131px; background-image: url('../images/pop_brandQuiz_sub_banner.png');background-size: 100% auto; background-repeat: no-repeat;}
+.brandQuiz_subBanner .subBanner_area {display: flex;justify-content: right;}
+.brandQuiz_subBanner .subBanner_area > span {display:flex;align-items: center;width: 192px; height: 48px; font-size: 30px; letter-spacing: 0.09em; margin-top: 1px; padding-left: 10px;}
+.brandQuiz_subBanner .subBanner_area .brandQuizCode {display: flex;width: 192px;margin:0 1px 0 158px;}
+.brandQuiz_subBanner .subBanner_area .brandQuizCode > span {display:flex; justify-content: center; align-items: center; width: 48px; height: 48px; font-size: 30px;}
+/*  popup - brandQuiz - contentQuiz */
+.popCon .brandQuiz_content > li {padding: 0 0 62px 47px;}
+.popCon .brandQuiz_content > li:nth-of-type(7) {padding-right: 105px;}
+.popCon .brandQuiz_content > li:nth-of-type(8) {padding-right: 69px;}
+.popCon .brandQuiz_content > li:nth-of-type(10),
+.popCon .brandQuiz_content > li:nth-of-type(11),
+.popCon .brandQuiz_content > li:nth-of-type(12),
+.popCon .brandQuiz_content > li:nth-of-type(13) {padding: 0 0 50px 33px;}
+.popCon .brandQuiz_content > li .checkAnswer {padding-left: 22px;}
+.popCon .brandQuiz_content > li:nth-of-type(10) .checkAnswer,
+.popCon .brandQuiz_content > li:nth-of-type(11) .checkAnswer,
+.popCon .brandQuiz_content > li:nth-of-type(13) .checkAnswer {padding-left: 31px;}
+.popCon .brandQuiz_content > li:nth-of-type(11) .checkAnswer {padding-left: 26px; padding-right: 156px; justify-content: space-between;}
+.popCon .brandQuiz_content > li:nth-of-type(12) .checkAnswer {padding-left: 31px; padding-right: 176px; justify-content: space-between;}
+.popCon .brandQuiz_content > li p {display: flex; font-size: 22px; line-height: 40px; letter-spacing: -0.01em; margin-bottom: 21px;}
+.popCon .brandQuiz_content > li:nth-of-type(12) p {line-height: 32px; margin: 0 67px 21px 0;}
+.popCon .brandQuiz_content > li > p > span {margin: 0 5px; text-decoration: underline;text-underline-position: under; text-decoration-thickness: 1px;}
+/* popup - brandQuiz - contentNumber */
+.popCon .brandQuiz_content > li p:before {content: "1."; margin-right: 5px;}
+.popCon .brandQuiz_content > li:nth-of-type(2) p:before {content: "2.";}
+.popCon .brandQuiz_content > li:nth-of-type(3) p:before {content: "3.";}
+.popCon .brandQuiz_content > li:nth-of-type(4) p:before {content: "4.";}
+.popCon .brandQuiz_content > li:nth-of-type(5) p:before {content: "5.";}
+.popCon .brandQuiz_content > li:nth-of-type(6) p:before {content: "6.";}
+.popCon .brandQuiz_content > li:nth-of-type(7) p:before {content: "7.";}
+.popCon .brandQuiz_content > li:nth-of-type(8) p:before {content: "8.";}
+.popCon .brandQuiz_content > li:nth-of-type(9) p:before {content: "9.";}
+.popCon .brandQuiz_content > li:nth-of-type(10) p:before {content: "10.";}
+.popCon .brandQuiz_content > li:nth-of-type(11) p:before {content: "11.";}
+.popCon .brandQuiz_content > li:nth-of-type(12) p:before {content: "12.";}
+.popCon .brandQuiz_content > li:nth-of-type(13) p:before {content: "13.";}
+.popCon .brandQuiz_content .checkAnswer.row {display: flex; justify-content: flex-start;}
+.popCon .brandQuiz_content .checkAnswer.column {display: flex; flex-direction: column; justify-content: flex-start;}
+/* popup - brandQuiz - contentAnswer width */
+.popCon .brandQuiz_content .checkAnswer.row li:not(:last-child) {width: 210px;}
+.popCon .brandQuiz_content .checkAnswer.row.quiz5 li:not(:last-child),
+.popCon .brandQuiz_content .checkAnswer.row.quiz10 li:not(:last-child),
+.popCon .brandQuiz_content .checkAnswer.row.quiz11 li:not(:last-child),
+.popCon .brandQuiz_content .checkAnswer.row.quiz12 li:not(:last-child),
+.popCon .brandQuiz_content .checkAnswer.row.quiz13 li:not(:last-child) {width: unset;}
+.popCon .brandQuiz_content .checkAnswer li label {display: flex; position: relative; align-items: center; font-size: 22px; line-height: 36px; letter-spacing: -0.01em;}
+.popCon .brandQuiz_content .checkAnswer.column li {margin-top: 5px;}
+/* popup - brandQuiz Solution - radioButton */
+.popCon .brandQuiz_content.quiz_solution > li {position: relative;}
+/* 정답시 */
+.popCon .brandQuiz_content.quiz_solution > .question.correct .checkAnswer.row li .myCheck.correctValue:before {content: "";position: absolute;left: -6px; top: 2px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+.popCon .brandQuiz_content.quiz_solution > .question.correct .checkAnswer.row.quiz5 li .myCheck.correctValue:before {content: "";position: absolute;left: -6px; top: -6px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+.popCon .brandQuiz_content.quiz_solution > .question.correct .checkAnswer.row.quiz10 li .myCheck.correctValue:before {content: "";position: absolute;left: -6px; top: 2px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+.popCon .brandQuiz_content.quiz_solution > .question.correct .checkAnswer.column li .myCheck.correctValue:before {content: "";position: absolute;left: -6px; top:2px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+/* 오답시 */
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row li .myCheck:before {content: "";position: absolute;left: -6px; top: 2px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row.quiz5 li .myCheck:before {content: "";position: absolute;left: -6px; top: -6px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row.quiz10 li .myCheck:before {content: "";position: absolute;left: -6px; top: 2px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row li .correctValue {color: #1429ae;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row li .correctValue:before {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -20px;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row.quiz10 li .correctValue:after {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -192px;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row.quiz10 li .correctValue:before {display: none;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row.quiz13 li .correctValue:after {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -312px;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.row.quiz13 li .correctValue:before {display: none;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.column li .myCheck:before {content: "";position: absolute;left: -6px; top:2px; width: 23px; height: 23px; border: 5px solid #000; border-radius: 50%;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.column li .correctValue {color: #1429ae;}
+.popCon .brandQuiz_content.quiz_solution > .question.wrong .checkAnswer.column li .correctValue:before {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -20px;}
+/* 번호쪽 정답 오답 표시 */
+.popCon .brandQuiz_content.quiz_solution > .question.wrong:before {content: ""; display: flex; position: absolute;top: -50px;left: -10px; width: 144px;height: 142px; background-image: url('../images/pop_brandQuiz_wrong_answer.png'); background-repeat: no-repeat; background-size: 100% auto;}
+.popCon .brandQuiz_content.quiz_solution > .question.correct:before {content: ""; display: flex; position: absolute;top: -50px;left: -10px; width: 144px;height: 142px; background-image: url('../images/pop_brandQuiz_correct_answer.png'); background-repeat: no-repeat; background-size: 100% auto;}
+.popCon .brandQuiz_content.quiz_solution .checkAnswer li input[type=radio] {display: none;}
+.popCon .brandQuiz_content.quiz_solution > li .checkAnswer li input[type=radio]:checked + label {color : #1429ae;}
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(1) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(2) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(3) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(4) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(5) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(6) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(8) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(9) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(12) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(14) .checkAnswer li input[type=radio]:checked + label:before {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_answer.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -20px;}
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(7) .checkAnswer li input[type=radio]:checked + label:before {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_answer.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -18px;}
+.popCon .brandQuiz_content.quiz_solution > li:nth-of-type(10) .checkAnswer li input[type=radio]:checked + label:after {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_answer.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-top: -192px;}
+/* popup - brandQuiz - radioButton */
+.popCon .brandQuiz_content .checkAnswer li input[type=radio] {display: none;}
+.popCon .brandQuiz_content > li:nth-of-type(1) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(2) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(3) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(4) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(5) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(6) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(8) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(9) .checkAnswer li input[type=radio]:checked + label:before,
+.popCon .brandQuiz_content > li:nth-of-type(12) .checkAnswer li input[type=radio]:checked + label:before {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -20px;}
+.popCon .brandQuiz_content > li:nth-of-type(11) .checkAnswer li input[type=radio]:checked + label:before {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -20px;}
+.popCon .brandQuiz_content > li:nth-of-type(7) .checkAnswer li input[type=radio]:checked + label:before {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-right: -36px; margin-top: -18px;}
+.popCon .brandQuiz_content > li:nth-of-type(10) .checkAnswer li input[type=radio]:checked + label:after {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-top: -192px;}
+.popCon .brandQuiz_content > li:nth-of-type(13) .checkAnswer li input[type=radio]:checked + label:after {content: ""; display: flex; background-image: url('../images/pop_brandQuiz_myCheck.png'); background-size: 100% auto; background-repeat: no-repeat; width: 36px; height: 36px; margin-top: -312px;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap {flex-wrap: wrap;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap li label {align-items: flex-start;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz10 li label,
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz13 li label {flex-direction: column;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap li:not(:last-child) {padding-right: 20px;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li:nth-of-type(1),
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li:nth-of-type(2) {padding-bottom: 20px;}
+.popCon .brandQuiz_content .checkAnswer > li span {margin-right: 7px;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li span {margin: -8px 14px 0 0;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li .brandQuiz_imageBox {width: 350px; height: 130px; border: 1px solid #cccccc; background-color: #ffffff;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li:nth-of-type(1) .brandQuiz_imageBox {padding: 19px 34px 17px 34px;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li:nth-of-type(2) .brandQuiz_imageBox {padding: 48px 63px 48px 63px;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li:nth-of-type(3) .brandQuiz_imageBox {padding: 30px 16px 30px 16px;}
+.popCon .brandQuiz_content .checkAnswer.imgWrap.quiz5 > li:nth-of-type(4) .brandQuiz_imageBox {padding: 48px 63px 48px 63px;}
+.popCon .brandQuiz_content .checkAnswer.quiz10 li:nth-of-type(1),
+.popCon .brandQuiz_content .checkAnswer.quiz10 li:nth-of-type(2),
+.popCon .brandQuiz_content .checkAnswer.quiz13 li:nth-of-type(1),
+.popCon .brandQuiz_content .checkAnswer.quiz13 li:nth-of-type(2) {margin-bottom: 15px;}
+.popCon .brandQuiz_content .checkAnswer.quiz10 .brandQuiz_imageBox,
+.popCon .brandQuiz_content .checkAnswer.quiz13 .brandQuiz_imageBox {margin-top: 15px;}
+.popCon .brandQuiz_content .quiz_example.quiz9 {display: flex; align-items: center; width: 802px; height: 165px; padding: 39px 57px 40px 55px; margin: 0 0 22px 22px; border: 1px solid #cccccc; background-color: #ffffff;}
+.popCon .brandQuiz_content .quiz_example.quiz9 span {font-size: 22px; line-height: 32px; letter-spacing: -0.01em;}
+.popCon .brandQuiz_content .quiz_example.quiz11 {display: flex; align-items: center; width: 802px; height: 196px; padding: 40px 40px 39px 40px; margin: 0 0 22px 31px; border: 1px solid #cccccc; background-color: #ffffff;}
+.popCon .brandQuiz_content .quiz_example.quiz11 span {font-size: 22px; line-height: 32px; letter-spacing: -0.01em;}
+.popCon .brandQuiz_content .quiz_example.quiz14 {display: flex; align-items: center; width: 802px; height: 132px; margin: 0 0 22px 32px; border: 1px solid #cccccc; background-color: #ffffff;}
+.popCon .brandQuiz_content .quiz_example.quiz14 img {width: 100%; height: auto;}
+/* popup - brandQuiz - submitArea */
+.brandQuiz_submit_line {width: 1100px; height: 11px; background-image: url('../images/pop_brandQuiz_submit_line.png'); background-size: 100% auto; background-repeat: no-repeat;}
+.brandQuiz_submit_area {width: 1100px; height: 230px;}
+.brandQuiz_submit_bt {display: flex; justify-content: center; padding: 40px 0 15px 0;}
+.brandQuiz_submit_txt {display: flex; justify-content: center;}
+.brandQuiz_submit_txt span {display: flex; font-size: 24px; line-height: 56px; letter-spacing: -0.01em;}
+.brandQuiz_submit_txt span:before {content: "*"; display: flex; align-items: center; margin: 3px 5px 0 0;}
+.brandQuiz_close_area {width: 1100px; height: 171px;}
+.brandQuiz_close_bt {display: flex; justify-content: center; padding: 40px 0 15px 0;}
+/* popup - brandQuiz - Main Notice Popup */
+.brandQuiz_background.brandQuiz_pd {padding: 20px;}
+.brandQuiz_noticeImg {width:520px; height: 610px; margin: 10px 20px 30px 20px;background-image: url('../images/pop_brandQuiz_mainNotice.png'); background-repeat: no-repeat; background-size: 100%;}
+.brandQuix_notice_btn {display: flex; justify-content: space-between; margin: 0 20px;}
+/* popup - brandQuiz - complete */
+.brandQuiz_background.modalType06 {padding: 70px 80px;}
+.brandQuiz_completeImg {width: 650px; height: 360px; margin: 0 auto 0 auto;background-image: url('../images/pop_brandQuiz_complete.png'); background-repeat: no-repeat; background-size: 100% auto;}
+.brandQuiz_completetxt {display: flex; flex-direction: column; text-align: center;}
+.brandQuiz_completetxt > p {font-size: 60px; line-height: 80px; font-weight: 700; margin-bottom: 10px;}
+.brandQuiz_completetxt .sub_comtxt {display: flex;justify-content: center;font-size: 30px; line-height: 40px; letter-spacing: -0.01em; color: #888888;}
+.brandQuiz_completetxt .sub_comtxt > p {margin-left:5px;font-size: 30px; line-height: 40px; letter-spacing: -0.01em; color: #1428a0;} 
+.brandQuiz_complete_close {display:flex; justify-content: center; align-items: center; width: 320px; height: 85px; margin: 60px auto 0 auto; font-size: 30px;letter-spacing: -0.025em;color: #fff;background-color: #1428a0; border-radius: 43px;}
+/* brandQuiz Detail */
+.modalType07 {padding: 60px 60px 60px 32px;}
+.modalType07 .brandQuiz_detail_title {width: 708px; height: 405px; margin-bottom: 52px; background-image: url('../images/pop_brandQuiz_detail_title.png'); background-repeat: no-repeat; background-size: 100% auto;}
+.modalType07 .brandQuiz_detail_content {position: relative;width: 680px; height: 2050px;margin-left: 28px; background-image: url('../images/pop_brandQuiz_detail_content.png'); background-repeat: no-repeat; background-size: 100% auto;}
+.modalType07 .brandQuiz_detail_content .brandQuiz_detail_content_btn_box {width: 434px;height: 237px;position: absolute;top: 643px;left: 118px;display: flex;align-items: flex-end;justify-content: space-around;flex-direction: column;padding-right: 30px;}
+.modalType07 .brandQuiz_detail_content button {width: 170px; height: 40px; border-radius: 20px;background: #00b3e3;color: #fff; font-size: 18px; letter-spacing: -0.01em;display: flex;align-items: center; justify-content: center;}
+.modalType07 .brandQuiz_detail_join_bt {display: flex; justify-content: center; margin: 40px 0 0 28px;}
+.brandQuiz_detail_bottom {width: 100%; height: 365px;background-image: url('../images/pop_brandQuiz_detail_bottom.png'); background-repeat: no-repeat; background-size: 100% auto;}
+/* brandQuiz Result */
+.backdrop .modalType08 {padding: 35px 50px 35px 50px;width: 650px; height: 850px; background-repeat: no-repeat; background-size: 100% auto; position: relative;}
+.backdrop .modalType08.beginner {background-image: url('../images/pop_brandQuiz_beginner_background.png');}
+.backdrop .modalType08.intermediate {background-image: url('../images/pop_brandQuiz_intermediate_background.png');}
+.backdrop .modalType08.tutelar {background-image: url('../images/pop_brandQuiz_tutelar_background.png');}
+.backdrop .modalType08.master {background-image: url('../images/pop_brandQuiz_master_background.png');}
+.backdrop .modalType08.hero {background-image: url('../images/pop_brandQuiz_hero_background.png');}
+.backdrop .modalType08 .brandQuiz_result {width: 550px; height: 695px; background-repeat: no-repeat; background-size: contain; position: relative;}
+.backdrop .modalType08 .brandQuiz_result .brandQuiz_result_score_box {width: 283px; height: 94px; top:464px; left: 137px; position: absolute; display: flex;justify-content: space-between;}
+.backdrop .modalType08.intermediate .brandQuiz_result .brandQuiz_result_score_box,
+.backdrop .modalType08.master .brandQuiz_result .brandQuiz_result_score_box,
+.backdrop .modalType08.hero .brandQuiz_result .brandQuiz_result_score_box {top: 474px;}
+.backdrop .modalType08 .brandQuiz_result .brandQuiz_result_score {width: 255px; height: auto; display: flex;border-bottom: 3px solid #111; justify-content: center;}
+.backdrop .modalType08 .brandQuiz_result .brandQuiz_result_score > span {font-size: 110px;font-weight: 700; line-height: 92px;letter-spacing: -0.025em;}
+.backdrop .modalType08 .brandQuiz_result .brandQuiz_result_score_box > span {font-size: 30px;font-weight: 700;line-height: 30px;display: flex;align-items: flex-end;}
+.backdrop .modalType08.beginner .brandQuiz_result {background-image: url('../images/pop_brandQuiz_beginner_content.png');}
+.backdrop .modalType08.intermediate .brandQuiz_result {background-image: url('../images/pop_brandQuiz_intermediate_content.png');}
+.backdrop .modalType08.tutelar .brandQuiz_result {background-image: url('../images/pop_brandQuiz_tutelar_content.png');}
+.backdrop .modalType08.master .brandQuiz_result {background-image: url('../images/pop_brandQuiz_master_content.png');}
+.backdrop .modalType08.hero .brandQuiz_result {background-image: url('../images/pop_brandQuiz_hero_content.png');}
+.backdrop .modalType08 .brandQuiz_result_area {display: flex; justify-content: space-between; margin-top: 22px;}
+.backdrop .modalType08 .brandQuiz_result_area a {width: 270px; height:60px; background-repeat: no-repeat; background-size: 100% auto;}
+.backdrop .modalType08 .brandQuiz_result_area button {width: 270px; height:60px; background-repeat: no-repeat; background-size: 100% auto;}
+.backdrop .modalType08.beginner .brandQuiz_result_area a {background-image: url('../images/pop_brandQuiz_beginner_answer.png');}
+.backdrop .modalType08.beginner .brandQuiz_result_area button {background-image: url('../images/pop_brandQuiz_beginner_share.png');}
+.backdrop .modalType08.intermediate .brandQuiz_result_area a {background-image: url('../images/pop_brandQuiz_intermediate_answer.png');}
+.backdrop .modalType08.intermediate .brandQuiz_result_area button {background-image: url('../images/pop_brandQuiz_intermediate_share.png');}
+.backdrop .modalType08.tutelar .brandQuiz_result_area a {background-image: url('../images/pop_brandQuiz_tutelar_answer.png');}
+.backdrop .modalType08.tutelar .brandQuiz_result_area button {background-image: url('../images/pop_brandQuiz_tutelar_share.png');}
+.backdrop .modalType08.master .brandQuiz_result_area a {background-image: url('../images/pop_brandQuiz_master_answer.png');}
+.backdrop .modalType08.master .brandQuiz_result_area button {background-image: url('../images/pop_brandQuiz_master_share.png');}
+.backdrop .modalType08.hero .brandQuiz_result_area a {background-image: url('../images/pop_brandQuiz_hero_answer.png');}
+.backdrop .modalType08.hero .brandQuiz_result_area button {background-image: url('../images/pop_brandQuiz_hero_share.png');}
+.backdrop .brandQuiz_background.modalType06 .btnPopClose{position: absolute; display: inline-block; width: 24px; height: 24px; top: 90px; right: calc(25% - 50px); background: url("/assets/images/icon-popClose-000.svg") no-repeat center center; cursor: pointer;}
+.backdrop .brandQuiz_background .btnPopClose_area {display: flex; justify-content: flex-end; padding: 30px 40px 0 40px;}
+.backdrop .brandQuiz_background .btnPopClose_area .btnPopClose{position: absolute;width: 24px; height: 24px; background: url("/assets/images/icon-popClose-000.svg") no-repeat center center; cursor: pointer;}
+.backdrop .brandQuiz_background.brandQuiz_pd .btnPopClose{display: flex;margin: 0 0 0 auto; width: 24px; height: 24px; background: url("/assets/images/icon-popClose-000.svg") no-repeat center center; cursor: pointer;}
+.backdrop .modalType08 .btnPopClose{position: absolute; display: inline-block; width: 24px; height: 24px; top: 20px; right: 20px; background: url("/assets/images/icon-popClose-000.svg") no-repeat center center; cursor: pointer;}
+.backdrop .brandQuiz_background.brandQuiz_pd .popup_closeBox_area {display: flex;margin: 15px 20px 0 20px;}
+.backdrop .brandQuiz_background.brandQuiz_pd .popup_closeBox_area label {font-size: 17px; line-height: 40px; letter-spacing: -0.01em; margin-left: 5px;}
+/* 20230221 수정 */
+
+
+/* 상단 이미지 - 스와이퍼 */
+.backdrop .popImageLibrary{}
+.backdrop .popImageLibrary .bigImageLibrarySwiper{width: 730px; height: 400px; margin: 0 auto;}
+.backdrop .popImageLibrary .bigImageLibrarySwiper .swiper-wrapper{margin-top: 8px;}
+.backdrop .popImageLibrary .bigImageLibrarySwiper .swiper-wrapper .swiper-slide{background-color: #eee; text-align: center; position:relative;} /* 20221117 수정 */
+.backdrop .popImageLibrary .bigImageLibrarySwiper .swiper-wrapper .swiper-slide img{height: 100%;}
+.backdrop .popImageLibrary .bigImageLibrarySwiper .swiper-wrapper .swiper-slide .swiper-guide {width:100%; padding:16px 24px; background:rgba(0,0,0,0.6); font-size:14px; color:#fff; line-height:18px; position:absolute; bottom:0; left:0; text-align:left;} /* 20221117 추가 */
+
+/* 하단 이미지 - 스와이퍼 */
+.backdrop .popImageLibrary .miniImageLibrarySwiper{width: 512px; margin: 16px auto 0;}
+.backdrop .popImageLibrary .miniImageLibrarySwiper .swiper-wrapper{}
+.backdrop .popImageLibrary .miniImageLibrarySwiper .swiper-wrapper .swiper-slide{width: 120px; height: 100px;}
+.backdrop .popImageLibrary .miniImageLibrarySwiper .swiper-wrapper .swiper-slide img{width: 100%; height: 100%; object-fit: cover;}
+.backdrop .popImageLibrary .miniImageLibrarySwiper .swiper-wrapper .swiper-slide.swiper-slide-active {border: 3px solid #006ff2;}
+.backdrop .popImageLibrary .miniImageLibrarySwiper .swiper-wrapper .swiper-slide.swiper-slide-thumb-active {border: 3px solid #006ff2;}
+.backdrop .popImageLibrary .bigImageLibrarySwiper .swiper-button-prev{top: 0; bottom: 0; left: 0px; width: 40px; height: 40px; margin: auto; background: url("/assets/images/icon-popSiwperLeftArrow.svg") no-repeat center center; outline: none;}
+.backdrop .popImageLibrary .bigImageLibrarySwiper .swiper-button-next{top: 0; bottom: 0; right: 0px; width: 40px; height: 40px; margin: auto; background: url("/assets/images/icon-popSiwperRightArrow.svg") no-repeat center center; outline: none;}
+
+/* 선택된 이미지 - 스와이퍼 */
+.backdrop .selImgArea{height: 0; margin-top: 8px; padding: 0; background-color: #f8f8f8; border-radius: 0 0 30px 30px; transition: padding 0.2s ease; overflow: hidden;}
+.backdrop .selImgArea.open{height: auto; max-height: 308px; padding: 24px 0 32px 0; background-color: #f8f8f8; border-radius: 0 0 30px 30px; transition: padding 0.2s ease;}
+.backdrop .selImgArea .imgCount{width: 730px; margin: 24px auto 0; font-size: 18px; font-weight: 700;}
+.backdrop .selImgArea .imgCount em{color: #006ff2;}
+.backdrop .selImgArea .swiper{width: 100%;}
+.backdrop .selImgArea .swiper .selImgItemSwiper{width: 730px; overflow: hidden; margin: 16px auto 0;}
+.backdrop .selImgArea .swiper .selImgItemSwiper .swiper-wrapper{}
+.backdrop .selImgArea .swiper .selImgItemSwiper .swiper-wrapper .swiper-slide{position: relative; padding-top: 19px; height: 130px;}
+.backdrop .selImgArea .swiper .selImgItemSwiper .swiper-wrapper .swiper-slide i{position: absolute; right: 0; top: 0px; display: inline-block; width: 20px; height: 20px; background: url("/assets/images/icon-imgItemCancel.svg") no-repeat right top; cursor: pointer;}
+.backdrop .selImgArea .swiper .selImgItemSwiper .swiper-wrapper .swiper-slide div{position: relative; width: 100%; height: 110px; overflow: hidden; background-color: #ccc;}
+.backdrop .selImgArea .swiper .selImgItemSwiper .swiper-wrapper .swiper-slide div img{position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto;}
+.backdrop .selImgArea .swiper .selImgItemSwiper .swiper-button-next{width: 10px; height: 17px; top: 20px; bottom: 0; right: 65px;margin: auto; background: url("/assets/images/icon-arrowRight.svg") no-repeat center center; outline: none;}
+.backdrop .selImgArea .swiper .selImgItemSwiper .swiper-button-prev{width: 10px; height: 17px; top: 20px; bottom: 0; left: 65px; margin: auto; background: url("/assets/images/icon-arrowLeft.svg") no-repeat center center; outline: none;}
+
+/* modal - alert - alertDigalog_surveySatisfaction */
+.surveySatisfaction .reviewStar{}
+.surveySatisfaction .reviewStar .starIcon{display: inline-block; width: 32px; height: 32px; background: url("/assets/images/reviewStar_none.svg") no-repeat center center; margin: 0 8px;}
+.surveySatisfaction .reviewStar .starIcon.rateShow{background: url("/assets/images/reviewStar_block.svg") no-repeat center center;}
+.surveySatisfaction .textForm{width: 564px; margin: 0 auto;}
+.surveySatisfaction .textForm label{font-size: 16px; font-weight: 400; color: #8f8f8f;}
+.surveySatisfaction .textForm textarea{height: 100px;}
+
+/* modal - alert - alertDigalog_surveyResearch */
+.surveyResearch{}
+.surveyResearch hr{border-color: #000;}
+.surveyResearch .dashLineTop:not(:first-child){border-top: 1px dashed #ddd; margin-top: 20px; margin-bottom: 20px;}
+.surveyResearch .textForm label{font-size: 16px; font-weight: 700; color :#000;}
+.surveyResearch .textForm textarea{height: 100px;}
+
+.surveyResearch dl dt{}
+.surveyResearch .inpWrap{}
+.surveyResearch .inpWrap label{font-size: 16px; font-weight: 700;}
+.surveyResearch .inpWrap label span{font-weight: 400; color: #8f8f8f;}
+.surveyResearch .inpWrap input{height: 40px; padding: 0 16px; border-radius: 6px; background-color: #fff; border: 1px solid #767676;}
+.surveyResearch dl{}
+.surveyResearch dl dt{font-size: 16px; font-weight: 700;}
+.surveyResearch dl dt em{font-weight: 400;}
+.surveyResearch dl dd{}
+.surveyResearch dl dd label{font-size: 16px; font-weight: 400; color: #8f8f8f;}
+
+/* modal - alert - alertDigalog_passwordPropReset */
+.passwordPropReset .generateInpWrap{margin-left: auto; margin-right: auto;}
+
+/* footer 이용약관팝업 / 쿠키팝업 */
+.terms{}
+.terms .scroll620{padding: 10px 10px 30px 0;}
+html[lang^='ko'] .terms .cookie-policy{max-width: 1220px; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html[lang^='ko'] .terms .cookie-policy-title {font-family: "Samsung One KR", sans-serif; font-weight: 700; font-size: 54px; line-height: 1.33; color: #000; padding-top: 40px;}
+html[lang^='ko'] .terms .cookie-policy-title #samsungOne {font-family: "Samsung One", sans-serif !important;}
+html[lang^='ko'] .terms .cookie-policy-title #samsungSharpSans {font-family: "Samsung Sharp Sans", sans-serif !important;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-title-wrap {padding: 0 0 100px; text-align: center;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section{text-align: left;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section + .cookie-policy-section {margin-top: 160px;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-inner{margin-bottom: 48px;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-inner:last-of-type{margin-bottom: 0;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-inner-title{font-family: "Samsung One KR", sans-serif; font-weight: 700; font-size: 32px; line-height: 1.59;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-title{font-family: "Samsung One KR",sans-serif; font-weight: 700; font-size: 18px; line-height: 1.33; color: #000;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-textbox p{font-family: "Samsung One KR","Samsung One",sans-serif; margin-top: 16px; font-weight: 400; font-size: 18px; line-height: 1.33; color: #333;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-textbox p a{color: #006ff2; text-decoration: underline;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-textbox .mt{margin-top: 24px;}
+html[lang^='ko'] .terms .cookie-policy .cookie-policy-section-textbox .mt-2{margin-top: 20px;}
+html[lang^='ko'] .terms .cookie-policy-table{width: 100%; margin-top: 24px; background: #f8f8f8; border-radius: 20px;}
+html[lang^='ko'] .terms .cookie-policy-table tr:last-of-type td{border-bottom: none;}
+html[lang^='ko'] .terms .cookie-policy-table th{padding: 18px 0; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 14px; line-height: 1.4; text-align: center;}
+html[lang^='ko'] .terms .cookie-policy-table th:first-of-type{width: 10%;}
+html[lang^='ko'] .terms .cookie-policy-table th:nth-of-type(2){width: 70%;}
+html[lang^='ko'] .terms .cookie-policy-table th:last-of-type{width: 20%; border-right: none;}
+html[lang^='ko'] .terms .cookie-policy-table.privacyPolicy th:first-of-type{width: 30%;}
+html[lang^='ko'] .terms .cookie-policy-table.privacyPolicy th:last-of-type{width: auto; border-right: none;}
+html[lang^='ko'] .terms .cookie-policy-table.privacyPolicyDel th:first-of-type{width: 45%;}
+html[lang^='ko'] .terms .cookie-policy-table.privacyPolicyDel th:nth-of-type(2){width: 10%;}
+html[lang^='ko'] .terms .cookie-policy-table.privacyPolicyDel th:last-of-type{width: 45%; border-right: none;}
+html[lang^='ko'] .terms .cookie-policy-table td{padding: 18px 16px; color: #333; font-size: 14px; line-height: 1.4; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; vertical-align: top;}
+html[lang^='ko'] .terms .cookie-policy-table td:last-of-type{border-right: none;}
+html[lang^='ko'] .terms .cookie-policy-section-2{margin-top: 80px;}
+html[lang^='ko'] .terms .cookie-policy-section-2-tit{font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 24px; line-height: 1.4;}
+
+html[lang^='en'] .terms .cookie-policy{max-width: 1220px; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html[lang^='en'] .terms .cookie-policy-title {font-family: "Samsung One KR", sans-serif; font-weight: 700; font-size: 54px; line-height: 1.33; color: #000; padding-top: 40px;}
+html[lang^='en'] .terms .cookie-policy-title #samsungOne {font-family: "Samsung One", sans-serif !important;}
+html[lang^='en'] .terms .cookie-policy-title #samsungSharpSans {font-family: "Samsung Sharp Sans", sans-serif !important;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-title-wrap {padding: 0 0 100px; text-align: center;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section{text-align: left;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section + .cookie-policy-section {margin-top: 160px;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-inner{margin-bottom: 48px;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-inner:last-of-type{margin-bottom: 0;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-inner-title{font-family: "Samsung Sharp Sans", sans-serif; font-weight: 700; font-size: 32px; line-height: 1.59;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-title{font-family: "Samsung One KR",sans-serif; font-weight: 700; font-size: 18px; line-height: 1.33; color: #000;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-textbox p{font-family: "Samsung One KR","Samsung One",sans-serif; margin-top: 16px; font-weight: 400; font-size: 18px; line-height: 1.33; color: #333;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-textbox p a{color: #006ff2; text-decoration: underline;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-textbox .mt{margin-top: 24px;}
+html[lang^='en'] .terms .cookie-policy .cookie-policy-section-textbox .mt-2{margin-top: 20px;}
+html[lang^='en'] .terms .cookie-policy-table{width: 100%; margin-top: 24px; background: #f8f8f8; border-radius: 20px;}
+html[lang^='en'] .terms .cookie-policy-table tr:last-of-type td{border-bottom: none;}
+html[lang^='en'] .terms .cookie-policy-table th{padding: 18px 0; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 14px; line-height: 1.4; text-align: center;}
+html[lang^='en'] .terms .cookie-policy-table th:first-of-type{width: 10%;}
+html[lang^='en'] .terms .cookie-policy-table th:nth-of-type(2){width: 70%;}
+html[lang^='en'] .terms .cookie-policy-table th:last-of-type{width: 20%; border-right: none;}
+html[lang^='en'] .terms .cookie-policy-table.privacyPolicy th:first-of-type{width: 30%;}
+html[lang^='en'] .terms .cookie-policy-table.privacyPolicy th:last-of-type{width: auto; border-right: none;}
+html[lang^='en'] .terms .cookie-policy-table.privacyPolicyDel th:first-of-type{width: 45%;}
+html[lang^='en'] .terms .cookie-policy-table.privacyPolicyDel th:nth-of-type(2){width: 10%;}
+html[lang^='en'] .terms .cookie-policy-table.privacyPolicyDel th:last-of-type{width: 45%; border-right: none;}
+html[lang^='en'] .terms .cookie-policy-table td{padding: 18px 16px; color: #333; font-size: 14px; line-height: 1.4; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; vertical-align: top;}
+html[lang^='en'] .terms .cookie-policy-table td:last-of-type{border-right: none;}
+html[lang^='en'] .terms .cookie-policy-section-2{margin-top: 80px;}
+html[lang^='en'] .terms .cookie-policy-section-2-tit{font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 24px; line-height: 1.4;}
+
+
+/* 20230421 Add : 사용 권한 신청 팝업 */
+.backdrop .alertDialogWrap .alertInner .alertCon.modalType01.authority{padding:72px 60px 0 60px}
+.authority .textForm textarea{height:100px;font-size:16px}
+.authority .textForm textarea::placeholder{color: #8F8F8F;}

@@ -1,0 +1,165 @@
+
+.type01{width: 640px; background-color: #fff; border-radius: 30px;}
+.type02{width: 1156px; background-color: #fff; border-radius: 30px;}
+
+.joinWrap { position: relative; width: 100%; background-color: #f8f8f8; display: flex; align-items: center; flex-direction: column; text-align: center; padding: 48px 0 120px 0; } 
+.joinWrap.v2 { height: initial; } 
+.joinContent { height: 694px; background-color: #fff; padding: 60px 71.5px 48px 72.5px; color: #000; } 
+.joinContent h4 { color: #006ff2; font-size: 40px; font-weight: 300; margin-bottom: 36px; } 
+.joinContent .terms,
+.joinContent .privacy { color: #000; text-align: left; } 
+
+.joinContent .checkbox.etcCountry{font-size: 14px; padding-left: 20px;}
+
+.joinContent .terms h5,
+.joinContent .privacy h5 { margin: 10px 0; font-size: 15px; font-weight: 700; line-height: 1.2; display: inline-block; border-bottom: 1px solid #000; margin-left: 30px; cursor: pointer; }
+.joinContent .terms .termsScroll { width: 450px; height: 100px; border: 1px solid #e6e6e6; padding: 14px 35px 14px 15px; margin: 0px 0 29px 29px; font-weight: 100; overflow-y: scroll; font-size: 13px; line-height: 1.38; } 
+.joinContent .privacy .termsScroll { width: 450px; height: 100px; border: 1px solid #e6e6e6; padding: 14px 35px 14px 15px; margin: 0px 0 29px 29px; font-weight: 100; overflow-y: scroll; font-size: 13px; line-height: 1.38; } 
+
+.allagree { margin: 0 0 48px; border-top:2px dotted #e6e6e6; padding-top: 19px; } 
+.allagree .inpWrap .agreeNotice{display: block; font-family: "Samsung One", sans-serif !important;}
+.allagree .inpWrap .agreeNotice + div label span{font-size: 14px; font-family: "Samsung One", sans-serif !important;}
+
+ /* joinInfoWrite */
+.info01 { font-size: 16px; } 
+.info02 { font-size: 12px; color: #8f8f8f; } 
+.warning { font-size: 12px; color: #ef3434; } 
+.joinInfoWrite { padding: 60px 80px 45px; color: #000; } 
+.joinInfoWrite h4 { color: #006ff2; font-size: 40px; font-weight: 300; margin-bottom: 36px; } 
+
+.joinInfoWrite .textForm{}
+.joinInfoWrite .textForm textarea{height: 100px;}
+
+/* 220527 - inpWrap 변경 작업 */
+.joinInfoWrite .inpWrap{position: relative; margin: 37px 0 24px 0;}
+.joinInfoWrite .inpWrap input{height: 40px; line-height: 1.33; background-color: transparent; border: none; border-bottom: 1px solid #8c8c8c; font-size: 18px; color: #333; outline: none; cursor: text;}
+.joinInfoWrite .inpWrap label{position: absolute; top: -1px; left: 0; max-width: 100%; line-height: 1.33; color: #909090; font-size: 18px; cursor: text; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; transition: all .2s; pointer-events: none; transform: translate3d(0, 3px, 0) scale(1); transform-origin: left top;}
+.joinInfoWrite .inpWrap label.downRequestTit{position: inherit; display: block;}
+.joinInfoWrite .inpWrap input:focus{color: #2189ff; border-color: #2189ff; border-width: 2px; outline: 0;}
+.joinInfoWrite .inpWrap input:focus + label,
+.joinInfoWrite .inpWrap input:valid + label{top: -16px; font-size: 14px; color: #2189ff;}
+
+.joinInfoWrite .inpWrap .requestRadio {height: 20px;} 
+.joinInfoWrite .inpWrap input[type="radio"].radioRound { display: none; } 
+.joinInfoWrite .inpWrap input[type="radio"].radioRound + label { position: initial; margin-right: 115px; pointer-events: initial; cursor: pointer;}
+.joinInfoWrite .inpWrap input[type="radio"].radioRound + label span { padding-left: 30px; font-size: 14px; } 
+.joinInfoWrite .inpWrap input[type="radio"].radioRound + label::before { content:""; position: absolute; width: 20px; height: 20px; background: url("/assets/images/icon-radio-off_blue.svg") no-repeat; } 
+.joinInfoWrite .inpWrap input[type="radio"].radioRound:checked + label:before { content: ""; background: url("/assets/images/icon-radio-on_blue.svg") no-repeat; } 
+
+.joinInfoWrite .caption{width: 280px; margin: 0 auto; font-size: 16px;}
+.joinInfoWrite .caption a{display: inline-block; border-bottom: 1px solid #000;}
+.joinInfoWrite .caption a + a{}
+
+ /* joinEnd */
+.joinEnd { padding: 60px 0 48px 0; color: #000; background-color: #fff; } 
+.joinEnd h4 { color: #006ff2; font-size: 40px; font-weight: 300; margin-bottom: 36px; } 
+.joinEnd .joinEcont { font-size: 16px; font-weight: 300; margin-top: 35px; text-align: left; line-height: 1.31; } 
+.joinEnd .joinEcont article { justify-content: center; display: flex; width: calc(100% - 80px) } 
+.joinEnd .joinEcont article:first-child { margin-bottom: 39px; } 
+.joinEnd .joinEcont .idInfo,
+.joinEnd .joinEcont .idInfo span { text-align: center; font-size: 16px; font-family: SamsungOne700; font-weight: 700; } 
+/* 
+.findId { display: inline-grid; text-align: left; } 
+.findId .bntBlue { margin-bottom: 30px; }  */
+.findId a { font-size: 16px; margin-bottom: 12px; } 
+.findId a > span { border-bottom: 1px solid #000; } 
+
+/* myInfoArea */
+.myInfoArea {padding-bottom: 40px;}
+.myInfoArea .tableWrap{}
+.myInfoArea .tableWrap tbody td .noRequest{color:#8f8f8f;}
+.myInfoArea .tableWrap tbody td .textForm{}
+.myInfoArea .tableWrap tbody td .textForm textarea{height: 100px; margin: 0;}
+.myInfoArea .tableWrap + .btnWrap{position: relative; padding-top: 40px; border-top: 1px solid #ddd;}
+.myInfoArea .tableWrap + .btnWrap .accountDel{position: absolute; right: 0;}
+
+/* footer 이용약관 / 쿠키 */
+html[lang^='ko'] .cookie-policy{max-width: 1220px; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html[lang^='ko'] .cookie-policy-title {font-family: "Samsung One KR", "Samsung One", sans-serif; font-weight: 700; font-size: 54px; line-height: 1.33; color: #000; padding-top: 160px;}
+html[lang^='ko'] .cookie-policy-title #samsungOne {font-family: "Samsung One", sans-serif;}
+html[lang^='ko'] .cookie-policy-title #samsungSharpSans {font-family: "Samsung Sharp Sans", sans-serif !important}
+html[lang^='ko'] .cookie-policy .cookie-policy-title-wrap {padding: 0 0 100px; text-align: center;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section{text-align: left;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section + .cookie-policy-section {margin-top: 160px;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-inner{margin-bottom: 48px;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-inner:last-of-type{margin-bottom: 0;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-inner-title{font-family: "Samsung One KR", sans-serif; font-weight: 700; font-size: 32px; line-height: 1.59;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-title{font-family: "Samsung One KR",sans-serif; font-weight: 700; font-size: 18px; line-height: 1.33; color: #000;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-textbox p{font-family: "Samsung One KR","Samsung One",sans-serif; margin-top: 16px; font-weight: 400; font-size: 18px; line-height: 1.33; color: #333;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-textbox p a{color: #006ff2; text-decoration: underline;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-textbox .mt{margin-top: 24px;}
+html[lang^='ko'] .cookie-policy .cookie-policy-section-textbox .mt-2{margin-top: 20px;}
+html[lang^='ko'] .cookie-policy-table{width: 100%; margin-top: 24px; background: #f8f8f8; border-radius: 20px;}
+html[lang^='ko'] .cookie-policy-table tr:last-of-type td{border-bottom: none;}
+html[lang^='ko'] .cookie-policy-table th{padding: 18px 0; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; font-family: "Samsung Sharp Sans" sans-serif; font-weight: 700; font-size: 14px; line-height: 1.4; text-align: center;}
+html[lang^='ko'] .cookie-policy-table th:first-of-type{width: 10%;}
+html[lang^='ko'] .cookie-policy-table th:nth-of-type(2){width: 70%;}
+html[lang^='ko'] .cookie-policy-table th:last-of-type{width: 20%; border-right: none;}
+html[lang^='ko'] .cookie-policy-table.privacyPolicy th:first-of-type{width: 30%;}
+html[lang^='ko'] .cookie-policy-table.privacyPolicy th:last-of-type{width: auto; border-right: none;}
+html[lang^='ko'] .cookie-policy-table.privacyPolicyDel th:first-of-type{width: 45%;}
+html[lang^='ko'] .cookie-policy-table.privacyPolicyDel th:nth-of-type(2){width: 10%;}
+html[lang^='ko'] .cookie-policy-table.privacyPolicyDel th:last-of-type{width: 45%; border-right: none;}
+html[lang^='ko'] .cookie-policy-table td{padding: 18px 16px; color: #333; font-size: 14px; line-height: 1.4; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; vertical-align: top;}
+html[lang^='ko'] .cookie-policy-table td:last-of-type{border-right: none;}
+html[lang^='ko'] .cookie-policy-section-2{margin-top: 80px;}
+html[lang^='ko'] .cookie-policy-section-2-tit{font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 24px; line-height: 1.4;}
+
+html[lang^='en'] .cookie-policy{max-width: 1220px; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html[lang^='en'] .cookie-policy-title { font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 54px; line-height: 1.33; color: #000; padding-top: 160px;}
+html[lang^='en'] .cookie-policy-title #samsungOne {font-family: "Samsung One", sans-serif !important;}
+html[lang^='en'] .cookie-policy-title #samsungSharpSans {font-family: "Samsung Sharp Sans", sans-serif !important}
+html[lang^='en'] .cookie-policy .cookie-policy-title-wrap {padding: 0 0 100px; text-align: center;}
+html[lang^='en'] .cookie-policy .cookie-policy-section{text-align: left;}
+html[lang^='en'] .cookie-policy .cookie-policy-section + .cookie-policy-section {margin-top: 160px;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-inner{margin-bottom: 48px;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-inner:last-of-type{margin-bottom: 0;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-inner-title{font-family: "Samsung Sharp Sans", sans-serif; font-weight: 700; font-size: 32px; line-height: 1.59;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-title{font-family: "Samsung Sharp Sans", sans-serif; font-weight: 700; font-size: 18px; line-height: 1.33; color: #000;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-textbox p{font-family: "Samsung One KR","Samsung One",sans-serif; margin-top: 16px; font-weight: 400; font-size: 18px; line-height: 1.33; color: #333;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-textbox p a{color: #006ff2; text-decoration: underline;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-textbox .mt{margin-top: 24px;}
+html[lang^='en'] .cookie-policy .cookie-policy-section-textbox .mt-2{margin-top: 20px;}
+html[lang^='en'] .cookie-policy-table{width: 100%; margin-top: 24px; background: #f8f8f8; border-radius: 20px;}
+html[lang^='en'] .cookie-policy-table tr:last-of-type td{border-bottom: none;}
+html[lang^='en'] .cookie-policy-table th{padding: 18px 0; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 14px; line-height: 1.4; text-align: center;}
+html[lang^='en'] .cookie-policy-table th:first-of-type{width: 10%;}
+html[lang^='en'] .cookie-policy-table th:nth-of-type(2){width: 70%;}
+html[lang^='en'] .cookie-policy-table th:last-of-type{width: 20%; border-right: none;}
+html[lang^='en'] .cookie-policy-table.privacyPolicy th:first-of-type{width: 30%;}
+html[lang^='en'] .cookie-policy-table.privacyPolicy th:last-of-type{width: auto; border-right: none;}
+html[lang^='en'] .cookie-policy-table.privacyPolicyDel th:first-of-type{width: 45%;}
+html[lang^='en'] .cookie-policy-table.privacyPolicyDel th:nth-of-type(2){width: 10%;}
+html[lang^='en'] .cookie-policy-table.privacyPolicyDel th:last-of-type{width: 45%; border-right: none;}
+html[lang^='en'] .cookie-policy-table td{padding: 18px 16px; color: #333; font-size: 14px; line-height: 1.4; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; vertical-align: top;}
+html[lang^='en'] .cookie-policy-table td:last-of-type{border-right: none;}
+html[lang^='en'] .cookie-policy-section-2{margin-top: 80px;}
+html[lang^='en'] .cookie-policy-section-2-tit{font-family: "Samsung Sharp Sans"; font-weight: 700; font-size: 24px; line-height: 1.4;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */

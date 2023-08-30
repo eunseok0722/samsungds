@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="/assets/css/common.css">
+</head>
+<script>
+function selectAll(selectAll) {
+    const checkboxes
+    = document.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach((checkbox) => {
+    checkbox.checked = selectAll.checked
+    })
+}
+</script>
+
+<body>
+    <div class="wrap">
+        <header class="header" id="header">
+            <div class="headerContainer">
+                <div class="headerLeft">
+                    <h1 class="samsungLogo">
+                        <a href="#">
+                            <img src="https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/img/icon/global-samsung-logo.svg" alt="">
+                        </a>
+                    </h1>
+                </div>
+                <ul class="rightUtil">
+                    <li class="users logoutUser clickMe">
+                        <span></span>
+                        <dl class="utilUserArea">
+                            <dd class="clickMe">로그인</dd>
+                            <dd class="clickMe">회원가입</dd>
+                        </dl>
+                    </li>
+                    <li class="language clickMe">
+                        <span>한국어</span>
+                        <ul class="utilLangOptionArea">
+                            <li class="optionBtnLang selected"><a>한국어</a></li>
+                            <li class="optionBtnLang mt10"><a>English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="joinWrap">
+            <div class="joinEnd type01">
+                <h4>회원가입 요청 완료</h4>
+                <section class="joinEcont">
+                    <article>
+                        DS Brand Desk 회원가입 요청이 접수되었습니다.<br>
+                        관리자 승인 후 서비스를 이용하실 수 있습니다.
+                    </article>
+                    <article>
+                        <p class="idInfo">아이디 : <span>semiconductor@naver.com</span></p>
+                    </article>
+                </section>
+                <div class="btnWrap mt40">
+                    <button class="btnType btnSize40 btnColorCyan">확인</button>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="terms">
+                <div class="footerLanguage">
+                    한국어
+                    <ul class="footerLanguageArea">
+                        <li class="footerOptLang selected"><a href="#">한국어</a></li>
+                        <li class="footerOptLang"><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <span>개인정보보호</span>
+                <span>이용약관</span>
+                <span>쿠키</span>
+                <span>삼성반도체 바로가기</span>
+                <span>Copyrightⓒ 2022 Samsung ALL rights reserved.</span>
+            </div>
+        </div>
+        <!-- footer -->
+    </div>
+
+</body>
+
+</html>

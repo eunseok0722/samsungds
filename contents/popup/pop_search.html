@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="../../assets/css/common.css">
+</head>
+<body>
+    <!-- popup - search -->
+    <div class="backdrop">
+        <div class="popWrap">
+            <div class="popInner">
+                <!-- popCon 변경사항 클래스 추가 후 작성 -->
+                <div class="popSrchHead">
+                    <h5 class="popTit tac mt90">What are you looking for?</h5>
+                    <span class="btnPopClose" onclick="popupLayerClose();"></span>
+                </div>
+                <div class="popCon modalType01 mt28">
+                    <div class="srchArea">
+                        <div class="srchWrap">
+                            <span class="iconSrch"></span>
+                            <input class="inpSrch" type="text" name="" id="" autocomplete="off">
+                            <span class="iconSrchDel"></span>
+                        </div>
+                        <div class="srchHistory">
+                            <!-- Search-History -->
+                            <dl>
+                                <dt class="mt20">검색 히스토리</dt>
+                                <dd class="mt16">Placement</dd>
+                                <dd class="mt16">Media kit</dd>
+                                <dd class="mt16">Giveaway</dd>
+                                <dd class="mt16">폰트</dd>
+                            </dl>
+                            <div class="btnWrap">
+                                <button class="btnType btnunderlineB">초기화</button>
+                            </div>
+                            <!-- Search-History -->
+                        </div>
+                        <!-- Search-ing -->
+                        <p class="infoExtend">검색하시려면 Enter를 입력해주세요.</p>
+                        <!-- Search-ing -->
+                        <!-- Search-닫기버튼 -->
+                        <!-- <div class="srchClose tar">
+                            <span>닫기</span>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- popCon 변경사항 클래스 추가 후 작성 -->
+            </div>
+        </div>
+    </div>
+    <script>
+        // 팝업 닫기
+        let backdrop = document.querySelector('.backdrop'),
+		popClose = document.querySelector('.btnPopClose');
+
+		function popupLayerClose(){
+			backdrop.style.display = "none";
+		};
+    </script>
+</body>
+</html>

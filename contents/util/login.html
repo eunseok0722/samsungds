@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성 DS Brand Desk</title>
+    
+    <link rel="stylesheet" href="/assets/css/common.css">
+</head>
+<script>
+function selectAll(selectAll) {
+    const checkboxes
+    = document.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach((checkbox) => {
+    checkbox.checked = selectAll.checked
+    })
+}
+</script>
+
+<body>
+    <div class="wrap">
+        <header class="header" id="header">
+            <div class="headerContainer">
+                <div class="headerLeft">
+                    <h1 class="samsungLogo">
+                        <a href="#">
+                            <img src="https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/img/icon/global-samsung-logo.svg" alt="">
+                        </a>
+                    </h1>
+                </div>
+                <ul class="rightUtil">
+                    <li class="users logoutUser clickMe">
+                        <span></span>
+                        <dl class="utilUserArea">
+                            <dd class="clickMe">로그인</dd>
+                            <dd class="clickMe">회원가입</dd>
+                        </dl>
+                    </li>
+                    <li class="language clickMe">
+                        <span>한국어</span>
+                        <ul class="utilLangOptionArea">
+                            <li class="optionBtnLang selected"><a>한국어</a></li>
+                            <li class="optionBtnLang mt10"><a>English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="joinWrap">
+            <div class="joinInfoWrite type01">
+                <h4>로그인</h4>
+                <section>
+                    <form action="">
+                        <div class="inpWrap mt60">
+                            <input type="text" id="emailId" name="emailId" autocomplete="off" required>
+                            <label for="emailId">이메일 아이디</label>
+                            <p class="warning mt10 tal"  style="display: none;" >동일한 계정이 있어요.</p>
+                            <p class="warning mt10 tal"  style="display: none;" >유효한 이메일 주소를 입력하세요.</p>
+                            <p class="info02 mt8 tal"  style="display: none;" >※ 개인 이메일이 아닌 업무 시 사용하는 이메일을 입력해주세요.</p>
+                        </div>
+                        <div class="inpWrap mt20">
+                            <input type="password" id="password" name="password" autocomplete="off" required>
+                            <label for="password">비밀번호</label>
+                            <p style="display: none;" class="info02 mt8 tal">문자, 숫자, 기호를 포함하여 8자 이상으로 설정해 주세요.</p>
+                            <p style="display: none;" class="warning mt8 tal">문자, 숫자, 기호를 포함하여 8자 이상으로 설정해 주세요.</p>
+                        </div>
+                        <div class="checkbox mt20 tal">
+                            <input type="checkbox" class="allCheckbox" name="agree1">
+                            <label for="terms"><span>아이디 기억하기</span></label>
+                        </div>
+                        <div class="btnWrap mt40">
+                            <button class="btnType btnColorCyan btnSize40" disabled>로그인</button>
+                        </div>
+                        <div class="caption mt30 tal">
+                            <a href=""><span>비밀번호 재설정</span></a><br>
+                            <a href="" class="mt10"><span>계정 생성</span></a>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="terms">
+                <div class="footerLanguage">
+                    한국어
+                    <ul class="footerLanguageArea">
+                        <li class="footerOptLang selected"><a href="#">한국어</a></li>
+                        <li class="footerOptLang"><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <span>개인정보보호</span>
+                <span>이용약관</span>
+                <span>쿠키</span>
+                <span>삼성반도체 바로가기</span>
+                <span>Copyrightⓒ 2022 Samsung ALL rights reserved.</span>
+            </div>
+        </div>
+        <!-- footer -->
+    </div>
+
+    <script>
+        let inpWrap = document.querySelectorAll('.inpWrap');
+        let input = document.querySelectorAll('.txtInp');
+        let label = document.querySelectorAll('.inpTit');
+        console.log(inpWrap);
+        console.log(input);
+        console.log(label);
+
+        for(i = 0; i < inpWrap.length; i++){
+            inpWrap[i].addEventListener("click", function(){
+                // label[i].style.display="block";
+                for(j = 0; j < this.childNodes.length; j++){
+                    let element = this.childNodes[j];
+                    if(element.tagName == 'LABEL'){
+                        element.style.display = "block";
+                    }
+                }
+            })
+        }
+
+        for(i = 0; i < input.length; i++){
+            input[i].addEventListener("focusout", function(){
+                this.previousElementSibling.style.display = "none";
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+/* brandAssetArea - COMMON */
+.assetGuideArea{justify-content: center;}
+.assetGuideArea .assetCon{padding-bottom: 120px;}
+.assetGuideArea .assetCon .assetTit{font-family: "Samsung Sharp Sans", sans-serif !important; font-size: 48px; font-weight: bold;}
+.assetGuideArea .assetCon .assetCaption{font-size: 18px; font-weight: 400; line-height: 23px;}
+.assetGuideArea .assetCon .halfArea{display: inline-flex;justify-content: space-between; gap: 24px;}
+.assetGuideArea .assetCon .halfArea .card{position: relative; width: 684px; padding: 36px 45px 51px 40px;  background-color: #f8f8f8; border-radius: 30px; overflow: hidden;}
+.brandAssetArea .assetCon .halfArea .card div h4{font-size: 24px; font-family: "Samsung Sharp Sans", sans-serif !important;}
+.brandAssetArea .assetCon .halfArea .card div p{font-size: 16px; font-weight: 400; line-height: 22px;}
+.brandAssetArea .assetCon .halfArea .card .imgBox{}
+
+/* bgWArea - letterMarkBox */
+.brandAssetArea{}
+.brandAssetArea .bgWArea{background-color: #fff;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon{}
+
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .letterMarkBox .card{height: 250px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .letterMarkBox .card div{}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .letterMarkBox .card .downBtnWrap{position: absolute; bottom: 50px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .letterMarkBox .card .downBtnWrap button{}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .letterMarkBox .card .imgBox{position: absolute; bottom: 50px; right: 45px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .letterMarkBox .card .imgBox img{}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .letterMarkBox .card:nth-child(2) .imgBox{bottom: 40px;}
+
+/* .bgGArea - BusinessLogo */
+.brandAssetArea .bgGArea{background-color: #f8f8f8;}
+.brandAssetArea .bgGArea .assetGuideArea{}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon{}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .quarter{display: flex; justify-content: space-between; gap: 24px;}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .quarter li{width: 330px; height: 218px; background-color: #fff; border-radius: 30px; padding: 36px 0 0 40px;}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .quarter li p{font-family: "Samsung Sharp Sans", sans-serif !important; font-size: 24px; line-height: 32px; font-weight: bold;}
+
+/* .bgBArea - Fonts */
+.brandAssetArea .bgBArea{background-color: #000;}
+.brandAssetArea .bgBArea .assetGuideArea{}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon{}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon h3{color: #fff;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon p{color: #fff;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox{}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card{color: #fff; background-color: #1c1c1c;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card div{}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card div h4{line-height: 42px;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card div p{font-size: 16px; line-height: 22px;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card .downBtnWrap{position: relative; z-index: 1;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card:nth-child(1){}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card:nth-child(2){}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card .imgBox{position: absolute; bottom: 50px; right: 45px;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card .imgBox{bottom: 0; right: 13px;}
+.brandAssetArea .bgBArea .assetGuideArea .assetCon .fontsBox .card:nth-child(2) .imgBox{bottom: 0; right: 13px;}
+
+/* .bgWArea - Template */
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea{display: flex; justify-content: center; flex-wrap: wrap; gap: 24px; width: 1440px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li{position: relative; width: 448px; height: 450px; border-radius: 30px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li .imgBox{position: absolute; top: 0; left: 0;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li .tempCon{position: absolute; padding: 36px 0 0 40px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li .tempCon h4{font-family: "Samsung Sharp Sans", sans-serif !important; font-size: 24px; line-height: 42px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li .tempCon p{font-size: 16px; line-height: 22px; font-weight: 400;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li .downBtnWrap{position: absolute; top: 182px; left: 40px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li:nth-child(4) .downBtnWrap,
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li:nth-child(5) .downBtnWrap,
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li:nth-child(6) .downBtnWrap{top: 204px;}
+.brandAssetArea .bgWArea .assetGuideArea .assetCon .tempArea li .downBtnWrap.otherType {left: 222px;} /* 20230508 추가 */
+
+/* .bgGArea - Internal branding */
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .brandingArea{}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .brandingArea .card{padding: 0;}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .brandingArea .card .brandCon{position: absolute; top: 36px; left: 40px;}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .brandingArea .card .brandCon h4{font-size: 24px; font-weight: bold;}
+.brandAssetArea .bgGArea .assetGuideArea .assetCon .brandingArea .card .brandCon p{font-size: 24px; font-weight: normal;}
+
+/* imageLibraryArea */
+.imageLibraryArea{display: flex; justify-content: center; flex-direction: column; align-items: center;}
+.imageLibraryArea .imgLibraryCon{width: 1392px; display: flex; flex-wrap: wrap; gap: 4px;}
+.imageLibraryArea .imgLibraryCon li{position: relative; width: calc(50% - 2px); height: 350px; overflow: hidden; cursor: pointer;}
+.imageLibraryArea .imgLibraryCon li .imgBox{position: relative; width: 100%; height: 100%;}
+.imageLibraryArea .imgLibraryCon li .imgBox img{position: absolute; width: 100%; height: 100%; object-fit: cover; top: 0; bottom: 0; right: 0; left: 0; margin: auto; transform: scale(1); transition: transform cubic-bezier(0.4, 0, 0.2, 1) 0.3s;}
+.imageLibraryArea .imgLibraryCon li:hover .imgBox img{transform: scale(1.05); transition: transform cubic-bezier(0.4, 0, 0.2, 1) 0.3s;}
+.imageLibraryArea .imgLibraryCon li .listInCon{position: absolute; left: 35px; bottom: 35px; width:calc(100% - 35px); color: #fff;}
+.imageLibraryArea .imgLibraryCon li .listInCon h4{font-size: 32px; line-height: 21px;}
+.imageLibraryArea .imgLibraryCon li .listInCon p{font-size: 24px; font-weight: 400;}
+/* 20230421 Add : 썸네일 잠금 아이콘 추가 */
+.imageLibraryArea .imgLibraryCon li .lockIcon {position: absolute; display: block;right: 12px; top: 14px; width: 40px; height: 40px; overflow:hidden; font-size:0; background: url("/assets/images/icon-lock.png") no-repeat center center; background-size:40px;}
+/* 20230712 Add : ui 변경 및 추가건 */
+.imageLibraryArea .imgLibraryCon li .listInCon p.txt {display:none; font-size:16px; line-height:22px; margin-top:20px;}
+.imageLibraryArea .imgLibraryCon li .listInCon ul.img_thumb {display:none; margin-top:30px; width:100%; height:80px;}
+.imageLibraryArea .imgLibraryCon li .listInCon ul.img_thumb li {position:relative; float:left; width:96px; height:80px; margin-right:10px;} /* 20230801 edit*/
+.imageLibraryArea .imgLibraryCon li .listInCon ul.img_thumb li img {display:block; width:100%;}
+.imageLibraryArea .imgLibraryCon li:hover {position:relative;}
+.imageLibraryArea .imgLibraryCon li:hover .imgBox {z-index:1;}
+.imageLibraryArea .imgLibraryCon li:hover .listInCon {z-index:3;}
+.imageLibraryArea .imgLibraryCon li:hover .listInCon p.txt,
+.imageLibraryArea .imgLibraryCon li:hover .listInCon ul.img_thumb {display:block;}
+.imageLibraryArea .imgLibraryCon li:hover::before {content:""; position:absolute; left:0; top:0; right:0; bottom:0; display:block; background:rgba(0,0,0,0.5); z-index:2;}
+.imageLibraryArea .imgLibraryCon > li:hover::after {content:""; position:absolute; right:0; bottom:0; display:block; width:81px; height:81px; background:url('/assets/images/icon-more.png') center center no-repeat; z-index:3; } /* 20230727 css add*/
+.imageLibraryArea .imgLibraryCon li:hover .lockIcon {display:inline-block; padding-right:25px; width:160px; height:40px; line-height:40px; color:#fff; border-radius:20px; font-size:14px; text-align:right; background:#000 url("/assets/images/icon-lock.png") no-repeat center left 20px; background-size:40px; z-index:4;}
+
+/* imgLibCateArea */
+.imgLibCateArea{width: 1392px; margin: 0 auto;}
+.imgLibCateArea .folderArea {padding-bottom:60px; } /* 20230727 css edit */
+.imgLibCateArea .folderArea .filePath{display: flex; align-items: center; font-size: 12px; color: #555;}
+.imgLibCateArea .folderArea .filePath span{}
+.imgLibCateArea .folderArea .filePath span:hover{cursor: pointer; text-decoration: underline;}
+.imgLibCateArea .folderArea .filePath i{display: inline-block; width: 13px; height: 14px; background: url("/assets/images/icon-file_path.svg") no-repeat center center;}
+.imgLibCateArea .folderArea .filePath i:not(:first-child){display: inline-block; width: 13px; height: 14px; background: url("/assets/images/icon-filePathArrow.svg") no-repeat center center;}
+
+.imgLibCateArea .folderArea .folderCate{display: flex; flex-wrap:wrap; gap: 4px; row-gap: 16px; width: 100%;} /* 20230807 edit */
+.imgLibCateArea .folderArea .folderCate .folder{cursor: pointer; width:calc(33.33% - 3px);}
+.imgLibCateArea .folderArea .folderCate .folder .folderBox{position: relative; width: 100%; height: 262px; overflow: hidden;}
+.imgLibCateArea .folderArea .folderCate .folder .folderBox div{overflow:hidden; position: absolute; left: 0; right: 0; width:100%; height:262px; margin: auto; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.imgLibCateArea .folderArea .folderCate .folder .folderBox .img-wrap img {width:100%; height:100%; object-fit: cover; object-position: center top;} /*20230724 css 추가*/
+.imgLibCateArea .folderArea .folderCate .folder .folderBox.con-2 div:nth-child(1) {width:calc(50% - 1px); left:0; right:inherit;} /* 20230801 css 수정 */
+.imgLibCateArea .folderArea .folderCate .folder .folderBox.con-2 div:nth-child(2) {width:calc(50% - 1px); right:0; left:inherit;} /* 20230801 css 수정 */
+.imgLibCateArea .folderArea .folderCate .folder .folderBox.con-3 div:nth-child(1) {width:calc(50% - 1px); left:0; right:inherit;} /* 20230801 css 수정 */
+.imgLibCateArea .folderArea .folderCate .folder .folderBox.con-3 div:nth-child(2) {width:calc(50% - 1px); height:calc(50% - 1px); top:0; right:0; left:inherit;} /* 20230801 css 수정 */
+.imgLibCateArea .folderArea .folderCate .folder .folderBox.con-3 div:nth-child(3) {width:calc(50% - 1px); height:calc(50% - 1px); bottom:0; top:inherit; right:0; left:inherit;} /* 20230801 css 수정 */
+.imgLibCateArea .folderArea .folderCate .folder:hover > p{text-decoration: underline; font-weight: 700;}
+.imgLibCateArea .folderArea .folderCate .folder p {display:block; width:100%; height:64px; line-height:64px; font-size: 24px; font-weight: 400; color:#fff; text-align: center; background:#000;}
+
+.imgLibCateArea .imgList{}
+.imgLibCateArea .imgList .btnWrap{display: flex; justify-content: space-between; align-items: center;}
+.imgLibCateArea .imgList .btnWrap .inpWrap input[type="checkbox"]{display: inline-block; width: 23px; height: 23px; margin: 0; vertical-align: middle;}
+.imgLibCateArea .imgList .btnWrap .inpWrap label{vertical-align: middle;}
+.imgLibCateArea .imgList .listItem{position: relative; display: flex; flex-wrap: wrap; width: 100%;}
+.imgLibCateArea .imgList .listItem .itemImg{position: relative; width: 212px; height: 180px; margin: 0 24px 24px 0; background-color: #ccc; overflow: hidden;}
+.imgLibCateArea .imgList .listItem .itemImg a{position: relative; display:block; width:100%; height:100%;}/* 20230516 추가 */
+.imgLibCateArea .imgList .listItem .itemImg:nth-child(5n){margin: 0; margin-bottom: 24px;}
+.imgLibCateArea .imgList .listItem .itemImg img{position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto; cursor: pointer;}
+.imgLibCateArea .imgList .listItem .itemImg input{position: absolute; top: 10px; left: 10px; width: 20px; height: 20px; margin: 0; border: 1px solid #ccc; cursor: pointer;}
+.imgLibCateArea .imgList .listItem .itemImg button{position: absolute; bottom: 10px; right: 10px; border-radius: 50%;}
+/* 20230421 Add : 동영상일 때 썸네일 재생 아이콘 추가 */
+.imgLibCateArea .imgList .listItem .playIcon{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 60px; height: 60px;overflow:hidden; background: url("/assets/images/icon-play.svg") no-repeat center center; cursor: pointer;}
+
+/* imgLibCateArea viewArea : 20230421 Add */
+.imgLibCateArea.viewArea{width:100%; padding: 24px 0 60px; background:#F8F8F8}
+.imgLibCateArea.viewArea .folderArea, .imgLibCateArea.viewArea .gallery{width: 1392px; margin: 0 auto;}
+.imgLibCateArea.viewArea .folderArea{ margin-top:0 !important; }
+.imgLibCateArea.viewArea .gallery{margin-top: 81px;}
+.imgLibCateArea.viewArea .gallery .bigImageLibrarySwiper{width: 1226px; margin: 0 auto; overflow: hidden}
+.imgLibCateArea.viewArea .gallery .bigImageLibrarySwiper .swiper-wrapper .swiper-slide{text-align: center; position:relative;}
+.imgLibCateArea.viewArea .gallery .bigImageLibrarySwiper .swiper-wrapper .swiper-slide .imgBox{width: 1226px; height: 560px; background-color:#eee}
+.imgLibCateArea.viewArea .gallery .bigImageLibrarySwiper .swiper-wrapper .swiper-slide .imgBox img{height: 100%;}
+.imgLibCateArea.viewArea .gallery .bigImageLibrarySwiper .swiper-button-prev{top: 262px; left: 0px; width: 40px; height: 40px; margin: auto; background: url("/assets/images/icon-popSiwperLeftArrow.svg") no-repeat center center; outline: none;}
+.imgLibCateArea.viewArea .gallery .bigImageLibrarySwiper .swiper-button-next{top: 262px; right: 0px; width: 40px; height: 40px; margin: auto; background: url("/assets/images/icon-popSiwperRightArrow.svg") no-repeat center center; outline: none;}
+.imgLibCateArea.viewArea .swiper-guide{ width: 1226px; margin: 30px auto 0;padding-top: 30px; text-align: left; border-top: 1px solid rgba(0,0,0,0.1); font-size: 16px; line-height: 21px;}/* 20230519 수정 : text-align: center; */
+
+/* 20230712 masonry 스타일 업데이트 */
+.imgLibCateArea .imgList.mt60 {margin-top:0 !important;} /* 20230807 edit */
+.MainImgArea.imageLibraryImg{background: url("/assets/images/keyVisual_main05.png") #000 no-repeat center center !important;} /* 20230801 edit */
+.imageLibraryArea .imgLibraryCon li .listInCon ul.img_thumb li:before {content:''; position:absolute; left:0; top:0; bottom:0; right:0;  background:url('/assets/images/img-thumb-shadow.png') left bottom no-repeat; z-index:2;} /* 20230801 add*/
+.imageLibraryArea .imgLibraryCon li .listInCon ul.img_thumb li p.thumb_tit {position:absolute; display:block; left:0; bottom:10px; width:100%; font-size:13px; line-height:16px; color:#fff; text-align:center; z-index:4; max-height:32px; word-break:keep-all; word-wrap:break-word; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden} /* 20230801 edit*/
+.middle_line {border-top:2px solid #000; margin-bottom:60px;}
+.grid { width:100%; max-width:1375px; margin:0 auto;}
+.grid-sizer, .grid-item { width: 340px; }
+.grid-sizer, .grid-item:hover img {transform: scale(1.05); transition: transform cubic-bezier(0.4, 0, 0.2, 1) 0.3s;}
+.grid-item {margin-bottom:5px; overflow:hidden; position:relative;}
+.grid-item.video a:before {content:''; position:absolute; margin:-30px 0 0 -30px; left:50%; top:50%; width:60px; height:60px; background:url('/assets/images/icon-play.png') center center no-repeat; z-index:4; cursor: pointer;} /* 20230727 css edit */
+.grid-item img {display: block; min-width:100%; max-width: 100%; }
+
+.loading-more {display:none; width:100%; height:60px; background:url('/assets/images/icon-loding.gif') center center no-repeat;}
+.loading-more.on {display:block;}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>삼성 DS Brand Desk</title>
+
+  <link rel="stylesheet" href="/assets/css/common.css">
+</head>
+<script>
+  function selectAll(selectAll) {
+    const checkboxes
+      = document.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = selectAll.checked
+    })
+  }
+  function loadFile(input) {
+      var file = input.files[0];	//선택된 파일 가져오기
+
+      //미리 만들어 놓은 div에 text(파일 이름) 추가
+      var name = document.getElementById('fileName');
+      name.textContent = file.name;
+  }
+</script>
+
+<body>
+    <div class="wrap">
+        <header class="header">
+            <div class="headerContainer">
+                <div class="headerLeft">
+                    <h1 class="samsungLogo">
+                        <a href="#">
+                            <img src="https://semiconductor.samsung.com/etc.clientlibs/semiconductor/designs/global/common/resources/img/icon/global-samsung-logo.svg" alt="">
+                        </a>
+                    </h1>
+                    <nav class="topMenu">
+                        <ul class="gnb1Depth">
+                            <li class="topMenuDepth"><span>Guidelines</span></li>
+                            <li class="topMenuDepth"><span>Brand Asset</span></li>
+                            <li class="topMenuDepth"><span>Request</span></li>
+                            <li class="topMenuDepth"><span>Q&amp;A</span></li>
+                        </ul>
+                    </nav>
+                </div>
+                <ul class="rightUtil">
+                    <li class="search">
+                        <span></span>
+                    </li>
+                    <li class="user users">
+                        <span></span>
+                        <dl class="utilUserArea">
+                            <dt><em>안녕하세요! <b>삼성dsdsdsdsaaa</b>님</em></dt>
+                            <dd>나의정보</dd>
+                            <dd>로그아웃</dd>
+                        </dl>
+                    </li>
+                    <li class="language clickMe">
+                        <span>한국어</span>
+                        <ul class="utilLangOptionArea">
+                            <li class="optionBtnLang selected"><a>한국어</a></li>
+                            <li class="optionBtnLang mt10"><a>English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="requestWrap">
+            <div class="headVisual">
+                <div class="MainImgArea requestImg"></div>
+                <h2>Request</h2>
+                <p class="mt30">디자인 검수 요청 시 관리자가 직접 검토하여 사용 가능 여부를 판단합니다.</p>
+            </div>
+            <div class="requestContent v2">
+                <div class="visualContent v2">
+                    <div class="tableWrap">
+                        <table>
+                            <caption>SSD</caption>
+                            <colgroup>
+                                <col style="width: 11.5%">
+                                <col style="width: auto">
+                            </colgroup>
+                            <thead>                                
+                                <tr>
+                                    <th>불러오기</th>
+                                    <td>
+                                        <div class="selWrap2">
+                                            <select class="wdh_full" name="" id="">
+                                            <option value="선택">선택</option>
+                                                <option value="이벤트">이벤트</option>
+                                                <option value="전시">전시</option>
+                                                <option value="광고">광고</option>
+                                                <option value="유형">유형</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>제목</th>
+                                    <td>
+                                        <div class="intWrap wdh_full">
+                                            <input class="txtInp wdh_full" type="text" placeholder="제목을 입력해주세요.">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>유형</th>
+                                    <td>
+                                        <div class="selWrap2">
+                                            <select class="" name="" id="">
+                                            <option value="선택">선택</option>
+                                                <option value="Event">Event</option>
+                                                <option value="Presentation">Presentation</option>
+                                                <option value="Advertisement">Advertisement</option>
+                                                <option value="Giveaway">Giveaway</option>
+                                                <option value="Internal Branding">Internal Branding</option>
+                                            </select>
+                                            <select class="" name="" id="">
+                                                <option value="선택">선택</option>
+                                                <option value="Banner">Banner</option>
+                                                <option value="OOH">OOH</option>
+                                                <option value="Print">Print</option>
+                                                <option value="Video">Video</option>
+                                                <option value="Social/Digital/Online">Social/Digital/Online</option> <!-- 20221019 추가 -->
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>내용</th>
+                                    <td>
+                                        <div class="textForm">
+                                            <textarea name="" id="" cols="30" rows="10" placeholder="내용을 입력해주세요."></textarea>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 업로드전 -->
+                                <tr>
+                                    <th>첨부파일</th>
+                                    <td>
+                                        <div class="attachArea">
+                                            <div class="fileUpload fileUploadBefore">
+                                                <u></u>
+                                                <p class="mt8">업로드 할 파일을 드래그 하세요.</p>
+                                            </div>
+                                            <div class="fileUploadBtn">
+                                                <label for="attachUpload" class="attachFileNaming">파일선택</label>
+                                                <input type="file" id="attachUpload" class="attachFileBtn">
+                                                <button class="btnType btnunderlineB allAttachDel mt20">전체삭제</button>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="input-file">
+                                            <input type="text" readonly="readonly" class="file-name" />
+                                            <label for="upload02" class="file-label">파일선택</label>
+                                            <input type="file" name="" id="upload02" class="file-upload" />
+                                        </div> -->
+                                        <p class="info02 mt8">※ 첨부파일은 게시물 1건당 최대 10개, 총 용량 2GB까지 등록이 가능합니다.</p>
+                                    </td>
+                                </tr>
+                                <!-- 업로드전 -->
+
+                                <!-- 업로드후 -->
+                                <tr>
+                                    <th>첨부파일</th>
+                                    <td>
+                                        <div class="attachArea">
+                                            <div class="fileUpload fileUploadAfter">
+                                                <ul class="fileNameArea">
+                                                    <li class="progressBar">
+                                                        <div class="progressBarIng"></div>
+                                                    </li>
+                                                    <li class="flexBox fileName">
+                                                        <span>첨부한 파일명이 표시됩니다.첨부한 파일명이 표시됩니다.첨부한 파일명이 표시됩니다.첨부한 파일명이 표시됩니다.첨부한 파일명이 표시됩니다.첨부한 파일명이 표시됩니다.첨부한 파일명이 표시됩니다.</span>
+                                                        <u></u>
+                                                    </li>
+                                                    <li class="flexBox extension mt10">
+                                                        <span>PPTX</span>
+                                                        <span class="fileSize">549KB</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="fileNameArea mt4">
+                                                    <li class="progressBar">
+                                                        <div class="progressBarIng"></div>
+                                                    </li>
+                                                    <li class="flexBox fileName">
+                                                        <span>첨부한 파일명이 표시됩니다.</span>
+                                                        <u></u>
+                                                    </li>
+                                                    <li class="flexBox extension mt10">
+                                                        <span>png</span>
+                                                        <span class="fileSize">549KB</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="fileNameArea mt4">
+                                                    <li class="progressBar">
+                                                        <div class="progressBarIng"></div>
+                                                    </li>
+                                                    <li class="flexBox fileName">
+                                                        <span>첨부한 파일명이 표시됩니다.</span>
+                                                        <u></u>
+                                                    </li>
+                                                    <li class="flexBox extension mt10">
+                                                        <span>JPG</span>
+                                                        <span class="fileSize">549KB</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="fileNameArea mt4">
+                                                    <li class="progressBar">
+                                                        <div class="progressBarIng"></div>
+                                                    </li>
+                                                    <li class="flexBox fileName">
+                                                        <span>첨부한 파일명이 표시됩니다.</span>
+                                                        <u></u>
+                                                    </li>
+                                                    <li class="flexBox extension mt10">
+                                                        <span>JPG</span>
+                                                        <span class="fileSize">549KB</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="fileNameArea mt4">
+                                                    <li class="progressBar">
+                                                        <div class="progressBarIng"></div>
+                                                    </li>
+                                                    <li class="flexBox fileName">
+                                                        <span>첨부한 파일명이 표시됩니다.</span>
+                                                        <u></u>
+                                                    </li>
+                                                    <li class="flexBox extension mt10">
+                                                        <span>JPG</span>
+                                                        <span class="fileSize">549KB</span>
+                                                    </li>
+                                                </ul>
+                                                <ul class="fileNameArea mt4">
+                                                    <li class="progressBar">
+                                                        <div class="progressBarIng"></div>
+                                                    </li>
+                                                    <li class="flexBox fileName">
+                                                        <span>첨부한 파일명이 표시됩니다.</span>
+                                                        <u></u>
+                                                    </li>
+                                                    <li class="flexBox extension mt10">
+                                                        <span>JPG</span>
+                                                        <span class="fileSize">549KB</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="fileUploadBtn">
+                                                <label for="attachUpload" class="attachFileNaming">파일선택</label>
+                                                <input type="file" id="attachUpload" class="attachFileBtn">
+                                                <button class="btnType btnunderlineB allAttachDel mt20">전체삭제</button>
+                                            </div>
+                                        </div>
+                                        <p class="info02 mt8">※ 첨부파일은 게시물 1건당 최대 10개, 총 용량 2GB까지 등록이 가능합니다.</p>
+                                    </td>
+                                </tr>
+                                <!-- 업로드후 -->
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="btnWrap v2 mt40">
+                        <button class="btnType btnSize40 btnLineB">취소</button>
+                        <button class="btnType btnSize40 btnColorB ml16">제출</button>
+                        <button class="btnType btnSize40 btnColorG ml16">임시저장</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="terms">
+                <div class="footerLanguage">
+                    한국어
+                    <ul class="footerLanguageArea">
+                        <li class="footerOptLang selected"><a href="#">한국어</a></li>
+                        <li class="footerOptLang"><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <span>개인정보보호</span>
+                <span>이용약관</span>
+                <span>쿠키</span>
+                <span>삼성반도체 바로가기</span>
+                <span>Copyrightⓒ 2022 Samsung ALL rights reserved.</span>
+            </div>
+        </div>
+        <!-- footer -->
+    </div>
+
+
+  <script>
+    let inpWrap = document.querySelectorAll('.inpWrap');
+    let input = document.querySelectorAll('.txtInp');
+    let label = document.querySelectorAll('.inpTit');
+    console.log(inpWrap);
+    console.log(input);
+    console.log(label);
+
+    for (i = 0; i < inpWrap.length; i++) {
+        inpWrap[i].addEventListener("click", function () {
+        // label[i].style.display="block";
+        for (j = 0; j < this.childNodes.length; j++) {
+            let element = this.childNodes[j];
+            if (element.tagName == 'LABEL') {
+                    element.style.display = "block";
+                }
+            }
+        })
+    }
+
+    for (i = 0; i < input.length; i++) {
+        input[i].addEventListener("focusout", function () {
+            this.previousElementSibling.style.display = "none";
+        })
+    }
+  </script>
+</body>
+
+</html>
